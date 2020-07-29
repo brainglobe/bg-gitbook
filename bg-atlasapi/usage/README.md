@@ -103,7 +103,7 @@ print(atlas.metadata["citation"])
 # Wang et al 2020, https://doi.org/10.1016/j.cell.2020.04.007
 ```
 
-To understand and manipulate the atlas orientation information, please see [bg-space](https://github.com/brainglobe/bg-space).
+To understand and manipulate the atlas orientation information, please see [BG-Space](../../bg-space/bg-space.md).
 
 
 

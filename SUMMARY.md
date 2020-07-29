@@ -14,3 +14,8 @@
 * [BG-brainrender-GUI](bg-brainrender-gui/bg-brainrender-gui.md)
 * [Usage](bg-brainrender-gui/usage.md)
 
+## bg-space
+
+* [BG-Space](bg-space/bg-space.md)
+* [Usage](bg-space/usage.md)
+

@@ -14,7 +14,7 @@ brainrender-gui
 
 Once the GUI is started it will open a window visualizing the `root` mesh of the atlas selected and several buttons to add and remove elements to the `brainrender` scene.
 
-![bg-brainrender-GUI](../.gitbook/assets/app.png)
+![](../.gitbook/assets/app.png)
 
 {% hint style="success" %}
 To s**pecify which atlas to use:** use the **`-a`** argument when calling `brainrender-gui`:
@@ -51,4 +51,25 @@ Pressing the `Show structures tree` button at the bottom right of the window sho
 ![](../.gitbook/assets/app2.png)
 
 The hierarchy view can be used to explore the structures hierarchy as well as to add brain regions to the scene: clicking on a region's tick box will add it to the list of actors in the scene. Press the same button again to hide the hierarchy view.
+
+
+
+### Taking screenshots
+
+Under the main canvas there is a button that can be used to save a screenshot with the current view of the `brainrender` scene. 
+
+To specify where to save the screenshot, use the `-o` argument when calling `brainrender-gui`:
+
+```text
+brainrender-gui -o path/to/screenshots/folder
+```
+
+### Camera control
+
+To the right of the screenshots button is a panel of buttons used to set the camera position in the `brainrender Scene:`
+
+* `Reset` resets the camera to what is defined as default in `brainrender` \(i.e. `brainrender.CAMERA`\).
+* `Top` moves the camera so that the brain is viewed from the top
+* `Side1` and `Side2` move the camera to view the brain from the side \(left and right sides\).
+* `Front` moves the camera to view the brain from the fron.
 

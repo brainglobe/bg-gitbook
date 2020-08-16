@@ -56,6 +56,10 @@ The hierarchy view can be used to explore the structures hierarchy as well as to
 
 ### Taking screenshots
 
+{% hint style="danger" %}
+This functionality is currently not working. We are aware of the problem and working on it!
+{% endhint %}
+
 Under the main canvas there is a button that can be used to save a screenshot with the current view of the `brainrender` scene. 
 
 To specify where to save the screenshot, use the `-o` argument when calling `brainrender-gui`:
@@ -63,6 +67,10 @@ To specify where to save the screenshot, use the `-o` argument when calling `bra
 ```text
 brainrender-gui -o path/to/screenshots/folder
 ```
+
+### 
+
+### 
 
 ### Camera control
 

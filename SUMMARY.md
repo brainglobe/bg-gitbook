@@ -26,3 +26,13 @@
   * [Downloading data](morphapi/usage/downloading-data.md)
   * [Rendering data](morphapi/usage/rendering-data.md)
 
+## brainreg
+
+* [Introduction](brainreg/introduction.md)
+* [Installation](brainreg/installation.md)
+* [User guide](brainreg/user-guide/README.md)
+  * [Specifying pixel size](brainreg/user-guide/specify-pixel-size.md)
+  * [Registration parameters](brainreg/user-guide/parameters.md)
+* [Visualisation](brainreg/visualisation.md)
+* [Tutorial](brainreg/tutorial.md)
+

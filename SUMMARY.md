@@ -33,6 +33,6 @@
 * [User guide](brainreg/user-guide/README.md)
   * [Specifying pixel size](brainreg/user-guide/specify-pixel-size.md)
   * [Registration parameters](brainreg/user-guide/parameters.md)
-* [Visualisation](brainreg/visualisation.md)
 * [Tutorial](brainreg/tutorial.md)
+* [Visualisation](brainreg/untitled.md)
 

@@ -9,6 +9,10 @@
   * [Command line interface](bg-atlasapi/usage/command-line-interface.md)
   * [Using the files directly](bg-atlasapi/usage/using-the-files-directly.md)
 
+---
+
+* [Contributing](contributing.md)
+
 ## BG-brainrender-GUI
 
 * [BG-brainrender-GUI](bg-brainrender-gui/bg-brainrender-gui.md)

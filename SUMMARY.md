@@ -12,17 +12,16 @@
 
 ## autogenerate docs
 
-* [bg_atlasapi.md](bg-atlasapi/bg-atlaspi/bg_atlasapi/bg_atlasapi.md)  
-    * [config.md](bg-atlasapi/bg-atlaspi/bg_atlasapi/bg_atlasapi/config.md)  
-    * [bg_atlasapi+bg_config.conf.md](bg-atlasapi/bg-atlaspi/bg_atlasapi/bg_atlasapi/bg_atlasapi+bg_config.conf/bg_atlasapi+bg_config.conf.md)  
-    * [structure_tree_util.md](bg-atlasapi/bg-atlaspi/bg_atlasapi/bg_atlasapi/structure_tree_util.md)  
-    * [core.md](bg-atlasapi/bg-atlaspi/bg_atlasapi/bg_atlasapi/core.md)  
-    * [structure_class.md](bg-atlasapi/bg-atlaspi/bg_atlasapi/bg_atlasapi/structure_class.md)  
-    * [bg_atlas.md](bg-atlasapi/bg-atlaspi/bg_atlasapi/bg_atlasapi/bg_atlas.md)  
-    * [list_atlases.md](bg-atlasapi/bg-atlaspi/bg_atlasapi/bg_atlasapi/list_atlases.md)  
-    * [update_atlases.md](bg-atlasapi/bg-atlaspi/bg_atlasapi/bg_atlasapi/update_atlases.md)  
-    * [cli.md](bg-atlasapi/bg-atlaspi/bg_atlasapi/bg_atlasapi/cli.md)  
-    * [utils.md](bg-atlasapi/bg-atlaspi/bg_atlasapi/bg_atlasapi/utils.md)
+* [bg_atlasapi](bg-atlasapi/bg-atlaspi/bg_atlasapi/bg_atlas.md)  
+    * [bg_atlas](bg-atlasapi/bg-atlaspi/bg_atlasapi/bg_atlas.md)  
+    * [cli](bg-atlasapi/bg-atlaspi/bg_atlasapi/cli.md)  
+    * [list_atlases](bg-atlasapi/bg-atlaspi/bg_atlasapi/list_atlases.md)  
+    * [config](bg-atlasapi/bg-atlaspi/bg_atlasapi/config.md)   
+    * [core](bg-atlasapi/bg-atlaspi/bg_atlasapi/core.md)  
+    * [structure_tree_util](bg-atlasapi/bg-atlaspi/bg_atlasapi/structure_tree_util.md)  
+    * [structure_class](bg-atlasapi/bg-atlaspi/bg_atlasapi/structure_class.md)  
+    * [update_atlases](bg-atlasapi/bg-atlaspi/bg_atlasapi/update_atlases.md)  
+    * [utils](bg-atlasapi/bg-atlaspi/bg_atlasapi/utils.md)
 
 
 ## BG-brainrender-GUI

@@ -5,17 +5,18 @@
 Contents
 ========
 
-* [**BrainGlobeAtlas**](#brainglobeatlas)
-	* [**`__init__`** [#45]](#__init__-45)
-	* [**`local_version`** [#87]](#local_version-87)
-	* [**`remote_version`** [#99]](#remote_version-99)
-	* [**`local_full_name`** [#119]](#local_full_name-119)
-	* [**`remote_url`** [#139]](#remote_url-139)
-	* [**`download_extract_file`** [#147]](#download_extract_file-147)
-	* [**`check_latest_version`** [#165]](#check_latest_version-165)
-	* [**`__repr__`** [#183]](#__repr__-183)
-* [**`_version_tuple_from_str`** [#13]](#_version_tuple_from_str-13)
-* [**`_version_str_from_tuple`** [#17]](#_version_str_from_tuple-17)
+- [Contents](#contents)
+- [**BrainGlobeAtlas**](#brainglobeatlas)
+  - [**`__init__`** [#45]](#__init__-45)
+  - [**`local_version`** [#87]](#local_version-87)
+  - [**`remote_version`** [#99]](#remote_version-99)
+  - [**`local_full_name`** [#119]](#local_full_name-119)
+  - [**`remote_url`** [#139]](#remote_url-139)
+  - [**`download_extract_file`** [#147]](#download_extract_file-147)
+  - [**`check_latest_version`** [#165]](#check_latest_version-165)
+  - [**`__repr__`** [#183]](#__repr__-183)
+- [**`_version_tuple_from_str`** [#13]](#_version_tuple_from_str-13)
+- [**`_version_str_from_tuple`** [#17]](#_version_str_from_tuple-17)
 
 
 &nbsp;

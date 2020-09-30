@@ -97,11 +97,7 @@ bg_atlas.get_structure_descendants("VISC")
 bg_atlas.get_structure_ancestors("VISC6a")
 ```
 
----
-**NOTE**: 
-the levels of the hierarchy depends on the underlying atlas, so we cannot ensure the goodness and consistency of their hierarchy three.
----
-
+**NOTE**: the levels of the hierarchy depends on the underlying atlas, so we cannot ensure the goodness and consistency of their hierarchy three.
 
 There is an higher level description of the structures hierarchy that is built using the [treelib](https://treelib.readthedocs.io/en/latest/) package, and is available as: 
 
@@ -173,8 +169,4 @@ bg_atlas.hemisphere_from_coords((5000, 4000, 3000), microns=True)
 
 # Now print side string
 bg_atlas.hemisphere_from_coords((5000, 4000, 3000), microns=True)
-```
-
-```python
-
 ```

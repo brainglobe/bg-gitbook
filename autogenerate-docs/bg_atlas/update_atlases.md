@@ -1,26 +1,19 @@
+# update\_atlases
 
+## Contents
 
+* [**`update_atlas`** \[\#8\]](update_atlases.md#update_atlas-8)
+* [**`install_atlas`** \[\#53\]](update_atlases.md#install_atlas-53)
 
+## **`update_atlas`** \[\#8\]
 
-Contents
-========
-
-* [**`update_atlas`** [#8]](#update_atlas-8)
-* [**`install_atlas`** [#53]](#install_atlas-53)
-
-
-&nbsp;
-
---------
-# **`update_atlas`** [#8]
-  
-Check the [***``source code``***](https://github.com/brainglobe/bg-atlasapi/blob/master/bg_atlasapi/update_atlases.py#L8) online
+Check the [_**`source code`**_](https://github.com/brainglobe/bg-atlasapi/blob/master/bg_atlasapi/update_atlases.py#L8) online
 
 ```python
 def update_atlas(atlas_name, force=False):
 ```
 
-&nbsp;  
+   
 docstring:
 
 ```text
@@ -41,21 +34,17 @@ force: bool
 If False it checks if the atlas is already at the latest version
 
 and doesn't update if that's the case.
-
 ```
 
-&nbsp;
+## **`install_atlas`** \[\#53\]
 
---------
-# **`install_atlas`** [#53]
-  
-Check the [***``source code``***](https://github.com/brainglobe/bg-atlasapi/blob/master/bg_atlasapi/update_atlases.py#L53) online
+Check the [_**`source code`**_](https://github.com/brainglobe/bg-atlasapi/blob/master/bg_atlasapi/update_atlases.py#L53) online
 
 ```python
 def install_atlas(atlas_name):
 ```
 
-&nbsp;  
+   
 docstring:
 
 ```text
@@ -70,5 +59,5 @@ Arguments
 atlas_name : str
 
 Name of the atlas to update.
-
 ```
+

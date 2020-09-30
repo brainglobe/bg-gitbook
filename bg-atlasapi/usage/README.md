@@ -1,10 +1,8 @@
 # Usage
 
-
 ## 0. Creating a `BrainGlobeAtlas` object and list availabe options
 
-
-To instantiate a `BrainGlobeAtlas` object, we need to instantiate it with the atlas name. The first time we use it, a version of this atlas files will be downloaded from the [remote GIN repository](http://gin.g-node.org/brainglobe/atlases) and stored on your local machine (by default, in .../Users/username/.brainglobe):
+To instantiate a `BrainGlobeAtlas` object, we need to instantiate it with the atlas name. The first time we use it, a version of this atlas files will be downloaded from the [remote GIN repository](http://gin.g-node.org/brainglobe/atlases) and stored on your local machine \(by default, in .../Users/username/.brainglobe\):
 
 ```python
 from bg_atlasapi import BrainGlobeAtlas
@@ -13,7 +11,7 @@ from pprint import pprint
 bg_atlas = BrainGlobeAtlas("allen_mouse_100um", check_latest=False)
 ```
 
-To know what atlases are available through BrainGlobe, we can use the `show_atlases` function (we need to be online):
+To know what atlases are available through BrainGlobe, we can use the `show_atlases` function \(we need to be online\):
 
 ```python
 from bg_atlasapi import show_atlases
@@ -22,18 +20,16 @@ show_atlases()
 
 ## 1. Using a `BrainGlobe` atlas
 
-
 A BrainGlobe atlas is a convenient API for interacting with an anatomical atlas. BrainGlobe atlases contain:
- * Metadata
- * Reference anatomical stack
- * Region annotation stack
- * Hemisphere annotation stack
- * Description of the region hierarchy
- * Meshes for the regions
 
+* Metadata
+* Reference anatomical stack
+* Region annotation stack
+* Hemisphere annotation stack
+* Description of the region hierarchy
+* Meshes for the regions
 
 ### 1.0 Metadata
-
 
 All atlases have a standard set of metatata describing their source, species, resolution, etc:
 
@@ -59,7 +55,6 @@ Annotations stack:
 stack = bg_atlas.annotation
 ```
 
-
 Hemisheres stack:
 
 ```python
@@ -68,12 +63,9 @@ stack = bg_atlas.hemispheres
 
 ### 1.2 Regions hierarchy
 
-
 The atlas comes with the description of a hierarchy of brain structures. To have an overview:
 
-
-bg_atlas.structures
-
+bg\_atlas.structures
 
 The structures attribute is a custom dictionary that can be queried by region number or acronym, and contains all the information for a given structure:
 
@@ -99,7 +91,7 @@ bg_atlas.get_structure_ancestors("VISC6a")
 
 **NOTE**: the levels of the hierarchy depends on the underlying atlas, so we cannot ensure the goodness and consistency of their hierarchy three.
 
-There is an higher level description of the structures hierarchy that is built using the [treelib](https://treelib.readthedocs.io/en/latest/) package, and is available as: 
+There is an higher level description of the structures hierarchy that is built using the [treelib](https://treelib.readthedocs.io/en/latest/) package, and is available as:
 
 ```python
 bg_atlas.structures.tree
@@ -107,11 +99,9 @@ bg_atlas.structures.tree
 
 For most applications though the methods described above and the list path of each region should be enough to query the hierarchy without additional layers of complication.
 
-
 ### 1.3 Region masks
 
-
-Sometimes, we might want to have the mask for a region that is not labelled in the annotation stack as all its voxels have the number of some lower level parcellation in the hierarchy (concretely, if the brain is divided in hindbrain, midbrain, and forebrain, `annotation == root_id` will be all False).
+Sometimes, we might want to have the mask for a region that is not labelled in the annotation stack as all its voxels have the number of some lower level parcellation in the hierarchy \(concretely, if the brain is divided in hindbrain, midbrain, and forebrain, `annotation == root_id` will be all False\).
 
 To get the mask for a region, simply type:
 
@@ -121,8 +111,7 @@ stack = bg_atlas.get_structure_mask(997)
 
 ### 1.3 Regions meshes
 
-
-If we need to access the structure meshes, we can either query for the file (e.g., if we need to load the file through some library like `vedo`):
+If we need to access the structure meshes, we can either query for the file \(e.g., if we need to load the file through some library like `vedo`\):
 
 ```python
 bg_atlas.meshfile_from_structure("CH")
@@ -136,9 +125,7 @@ bg_atlas.mesh_from_structure("CH")
 
 ## 2 Query the `BrainGlobeAtlas`
 
-
-### 2.0 Query for structures:
-
+### 2.0 Query for structures
 
 A very convenient feature of the `BrainGlobeAtlas` API is the simplicity of querying for the identity of the structure or the hemisphere at a given location, either from stack indexes or space coordinates, and even cutting the hierarchy at some higher level:
 
@@ -157,7 +144,6 @@ bg_atlas.structure_from_coords((5000, 4000, 3000), as_acronym=True,
 
 ### 2.1 Query for hemispheres
 
-
 A very similar method can be used for hemispheres. 0 correspond to outside the brain, a,d 1 and 2 to left and right hemispheres - but we can just ask for the side name instead of the number:
 
 ```python
@@ -170,3 +156,4 @@ bg_atlas.hemisphere_from_coords((5000, 4000, 3000), microns=True)
 # Now print side string
 bg_atlas.hemisphere_from_coords((5000, 4000, 3000), microns=True)
 ```
+

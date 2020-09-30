@@ -48,5 +48,5 @@
   * [Specifying pixel size](brainreg/user-guide/specify-pixel-size.md)
   * [Registration parameters](brainreg/user-guide/parameters.md)
 * [Tutorial](brainreg/tutorial.md)
-* [Visualisation](brainreg/untitled.md)
+* [Visualisation](brainreg/visualisation.md)
 

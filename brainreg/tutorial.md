@@ -26,6 +26,7 @@ To run brainreg, you need to know:
 * Where your data is \(in this case, it's the path to the `test_brain` directory\)
 * Where you want to save the output data \(we'll just save it into a directory called `brainreg_output`in the same directory as the `test_brain`\)
 * The pixel sizes of your data in microns \(see [Specifying pixel size](user-guide/specify-pixel-size.md) for details\). In this case, our data is 40um per pixel in x and y \(in the coronal plane\) and 50um in z \(the spacing of each plane\)
+* The orientation of your data. The software needs to know how you acquired your data \(coronal, saggital etc.\). For this cellfinder uses [bg-space](https://github.com/brainglobe/bg-space). Full details on how to enter your data orientation can be found [here](https://docs.brainglobe.info/brainreg/user-guide#input-data-orientation), but for this tutorial, the orientation is `asl`, which means that the data origin is the most **a**nterior, **s**uperior, **l**eft voxel.  
 * Which atlas you want to use \(you can see which are available by running `brainglobe list`. In this case, we want to use a mouse atlas \(as that's what our data is\), and we'll use the 50um version of the [Allen Mouse Brain Atlas](https://mouse.brain-map.org/static/atlas). 
 
 {% hint style="warning" %}
@@ -37,7 +38,7 @@ When using your own data, you'll probably \(but not definitely\) find that highe
 To run brainreg, we put this all together in a single command:
 
 ```text
-brainreg test_brain brainreg_output -x 40 -y 40 -z 50 --atlas allen_mouse_50um
+brainreg test_brain brainreg_output -x 40 -y 40 -z 50 --orientation asl --atlas allen_mouse_50um
 ```
 
 Lots of stuff will get printed to the console as brainreg runs, and when it's done \(it should only take a minute or so\), you will see something like:

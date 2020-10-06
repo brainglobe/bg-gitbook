@@ -28,7 +28,7 @@ If you have any spaces in your file-path, please enclose it in quotation marks, 
 * Output directory for all intermediate and final results
 
 {% hint style="warning" %}
-You must also specify the pixel sizes, see [Specifying pixel size](specify-pixel-size.md)
+You must also specify the pixel sizes \(see [Specifying pixel size](specify-pixel-size.md)\) and the orientation of your data \(see [Image orientation](image-orientation.md)\).
 {% endhint %}
 
 ### Additional options
@@ -56,24 +56,6 @@ To find out which atlases are available, once brainreg is installed, please run 
 ### Registration backend
 
 To change the registration algorithm used, use the `--backend` flag. The default is `niftyreg` as that is currently the only option.
-
-### Input data orientation
-
-If your data does not match the [brainglobe](https://github.com/brainglobe) default orientation \(the origin voxel is the most anterior, superior, left-most voxel, then you must specify the orientation by using the `--orientation` flag. What follows must be a string in the [bg-space](https://github.com/brainglobe/bg-space) "initials" form, to describe the origin voxel.
-
-{% hint style="info" %}
-When you work with a stack, the origin is the upper left corner when you show the first element `stack[0, :, :]` with matplotlib or when you open the stack with ImageJ. First dimension is the one that you are slicing, the second the height of the image, and the third the width of the image.
-{% endhint %}
-
-If the origin of your data \(first, top left voxel\) is the most anterior, superior, left part of the brain, then the orientation string would be "asl" \(anterior, superior, left\), and you would use:
-
-```bash
---orientation asl
-```
-
-{% hint style="warning" %}
-The order of the three initials must be the same as the axis order \(sliced plane, height, width\)
-{% endhint %}
 
 ### Registration options
 

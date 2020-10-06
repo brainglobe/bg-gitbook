@@ -45,6 +45,7 @@
 * [Introduction](brainreg/introduction.md)
 * [Installation](brainreg/installation.md)
 * [User guide](brainreg/user-guide/README.md)
+  * [Image orientation](brainreg/user-guide/image-orientation.md)
   * [Specifying pixel size](brainreg/user-guide/specify-pixel-size.md)
   * [Registration parameters](brainreg/user-guide/parameters.md)
 * [Tutorial](brainreg/tutorial.md)

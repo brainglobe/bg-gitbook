@@ -8,6 +8,8 @@ description: What is BrainGlobe?
 
 BrainGlobe is a project from the [Sainsbury Wellcome Centre at UCL](https://www.sainsburywellcome.org/web/) and the [Max Planck Institute of Neurobiology](https://www.neuro.mpg.de/en) to develop open software tools in Python for the exploration, visualisation and analysis of neuronal morphology data, from single neurons to whole brains.
 
+All of the projects can be found at our [GitHub organisation](https://github.com/brainglobe).
+
 ## BrainGlobe project
 
 ### Brain atlases

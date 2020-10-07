@@ -40,6 +40,9 @@
     * [Cell candidate classification](cellfinder/user-guide/command-line/classification.md)
     * [Specifying pixel sizes](cellfinder/user-guide/command-line/pixel-sizes.md)
     * [Historical options](cellfinder/user-guide/command-line/historical-options.md)
+  * [Training the network](cellfinder/user-guide/training/README.md)
+    * [Using supplied training data](cellfinder/user-guide/training/using-supplied-data.md)
+  * [Visualisation](cellfinder/user-guide/visualisation.md)
 
 ## brainreg
 
@@ -68,9 +71,4 @@
 * [Usage](morphapi/usage/README.md)
   * [Downloading data](morphapi/usage/downloading-data.md)
   * [Rendering data](morphapi/usage/rendering-data.md)
-
----
-
-* [Training the network](training.md)
-* [Using supplied training data](untitled.md)
 

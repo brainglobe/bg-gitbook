@@ -21,7 +21,7 @@ All options can be found by running `cellfinder -h`
 * `-o` or `--output-dir` Output directory for all intermediate and final results
 
 {% hint style="warning" %}
-You must also specify the pixel sizes \(see [Specifying pixel size](specifying-pixel-size.md)\) and the [orientation of your data](https://docs.brainglobe.info/brainreg/user-guide/image-orientation).
+You must also specify the pixel sizes \(see [Specifying pixel size](../../pixel-sizes.md)\) and the [orientation of your data](../../image-orientation.md).
 {% endhint %}
 
 ### The following options can also be used:
@@ -60,19 +60,17 @@ Useful for testing or if you know your cells are only in a specific region
 
 ### Cell candidate detection options
 
-To change how the initial cell candidate detection performs, see [Cell candidate detection](cell-candidate-detection.md).
+To change how the initial cell candidate detection performs, see [Cell candidate detection](candidate-detection.md).
 
 ### Cell classification options
 
-To change how the cell candidate classification performs, see [Cell candidate classification](cell-candidate-classification.md).
+To change how the cell candidate classification performs, see [Cell candidate classification](classification.md).
 
 ### Registration options
 
-To change how the actual registration performs, see [Registration parameters](https://docs.brainglobe.info/brainreg/user-guide/parameters).
+To change how the actual registration performs, see [Registration parameters](../../../brainreg/user-guide/parameters.md).
 
 ### **Historical options**
 
-If you have used old versions of cellfinder, there may be some options you want to change in [Historical options](historical-options.md)
-
-\_\_
+If you have used old versions of cellfinder, there may be some options you want to change in [Historical options](historical-options.md).
 

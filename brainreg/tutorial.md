@@ -17,7 +17,7 @@ For full information on how to use brainreg, please see the [User guide](user-gu
 * Download the data from [here](https://gin.g-node.org/cellfinder/data/raw/master/brainreg/test_brain.zip) \(the dataset is ~10MB, so it should download quickly\).
 * Unzip the data to a directory of your choice \(doesn't matter where\). You should end up with a directory called `test_brain` with 270 `.tif` images
 * Open a terminal \(Linux\) or your command prompt \(Windows\)
-* Activate your [conda environment ](../installation/using-conda.md)
+* Activate your [conda environment ](../cellfinder/using-conda.md)
 
 ### Run brainreg
 
@@ -25,8 +25,8 @@ To run brainreg, you need to know:
 
 * Where your data is \(in this case, it's the path to the `test_brain` directory\)
 * Where you want to save the output data \(we'll just save it into a directory called `brainreg_output`in the same directory as the `test_brain`\)
-* The pixel sizes of your data in microns \(see [Specifying pixel size]() for details\). In this case, our data is 40um per pixel in x and y \(in the coronal plane\) and 50um in z \(the spacing of each plane\)
-* The orientation of your data. The software needs to know how you acquired your data \(coronal, saggital etc.\). For this cellfinder uses [bg-space](https://github.com/brainglobe/bg-space). Full details on how to enter your data orientation can be found [here](https://docs.brainglobe.info/brainreg/user-guide#input-data-orientation), but for this tutorial, the orientation is `asl`, which means that the data origin is the most **a**nterior, **s**uperior, **l**eft voxel.  
+* The pixel sizes of your data in microns \(see [Specifying pixel size](../cellfinder/pixel-sizes.md) for details\). In this case, our data is 40um per pixel in x and y \(in the coronal plane\) and 50um in z \(the spacing of each plane\)
+* The orientation of your data. The software needs to know how you acquired your data \(coronal, saggital etc.\). For this cellfinder uses [bg-space](https://github.com/brainglobe/bg-space). Full details on how to enter your data orientation can be found [here](https://docs.brainglobe.info/brainreg/user-guide#input-data-orientation), but for this tutorial, the orientation is `asl`, which means that the data origin is the most **a**nterior, **s**uperior, **l**eft voxel. For more details see [Image orientation](../cellfinder/image-orientation.md).
 * Which atlas you want to use \(you can see which are available by running `brainglobe list`. In this case, we want to use a mouse atlas \(as that's what our data is\), and we'll use the 50um version of the [Allen Mouse Brain Atlas](https://mouse.brain-map.org/static/atlas). 
 
 {% hint style="warning" %}

@@ -28,7 +28,7 @@ Currently brainreg works on Windows and Linux. macOS support is experimental.
 
 brainreg is written in Python, and so needs a functional Python installation. Your machine may already have Python installed, but **I recommend installing miniconda**.
 
-**See** [**Using conda**](../installation/using-conda.md) **for details.**
+**See** [**Using conda**](../cellfinder/using-conda.md) **for details.**
 
 {% hint style="danger" %}
 brainreg should run on any type of Python installation, but if you don't use conda, I may not be able to help you.

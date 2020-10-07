@@ -26,8 +26,6 @@ You must also specify the pixel sizes \(see [Specifying pixel size](specifying-p
 
 ### The following options can also be used:
 
-\*\*\*\*
-
 **Only run parts of cellfinder**
 
 If for some reason you don't want some parts of cellfinder to run, you can use the following options. If a part of the pipeline is required by another part it will be run \(i.e. `--no-detection` won't do anything unless `--no-classification` is also used\). cellfinder will attempt to work out what parts of the pipeline have already been run \(in a given output directory\) and not run them again if appropriate.

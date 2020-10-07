@@ -69,3 +69,8 @@
   * [Downloading data](morphapi/usage/downloading-data.md)
   * [Rendering data](morphapi/usage/rendering-data.md)
 
+---
+
+* [Training the network](training.md)
+* [Using supplied training data](untitled.md)
+

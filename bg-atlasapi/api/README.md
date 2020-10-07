@@ -1,4 +1,4 @@
-# bg\_atlasapi
+# API documentation
 
 ## Contents
 

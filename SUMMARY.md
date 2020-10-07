@@ -9,19 +9,16 @@
   * [Command line interface](bg-atlasapi/usage/command-line-interface.md)
   * [Using the files directly](bg-atlasapi/usage/using-the-files-directly.md)
 * [Contributing](bg-atlasapi/contributing.md)
-
-## autogenerate docs
-
-* [bg\_atlasapi](autogenerate-docs/bg_atlas/README.md)
-  * [bg\_atlas](autogenerate-docs/bg_atlas/bg_atlas.md)
-  * [cli](autogenerate-docs/bg_atlas/cli.md)
-  * [list\_atlases](autogenerate-docs/bg_atlas/list_atlases.md)
-  * [config](autogenerate-docs/bg_atlas/config.md)
-  * [core](autogenerate-docs/bg_atlas/core.md)
-  * [structure\_tree\_util](autogenerate-docs/bg_atlas/structure_tree_util.md)
-  * [structure\_class](autogenerate-docs/bg_atlas/structure_class.md)
-  * [update\_atlases](autogenerate-docs/bg_atlas/update_atlases.md)
-  * [utils](autogenerate-docs/bg_atlas/utils.md)
+* [API documentation](bg-atlasapi/api/README.md)
+  * [bg\_atlas](bg-atlasapi/api/bg_atlas.md)
+  * [cli](bg-atlasapi/api/cli.md)
+  * [list\_atlases](bg-atlasapi/api/list_atlases.md)
+  * [config](bg-atlasapi/api/config.md)
+  * [core](bg-atlasapi/api/core.md)
+  * [structure\_tree\_util](bg-atlasapi/api/structure_tree_util.md)
+  * [structure\_class](bg-atlasapi/api/structure_class.md)
+  * [update\_atlases](bg-atlasapi/api/update_atlases.md)
+  * [utils](bg-atlasapi/api/utils.md)
 
 ## cellfinder
 

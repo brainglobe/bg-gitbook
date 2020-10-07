@@ -25,7 +25,7 @@ module load miniconda
 Create and activate new minimal conda environment
 
 ```bash
-  conda create --name cellfinder python=3.7
+  conda create --name cellfinder python=3.8
   conda activate cellfinder
 ```
 

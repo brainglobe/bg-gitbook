@@ -48,6 +48,10 @@
   * [Speeding up cellfinder](cellfinder/troubleshooting/speed-up.md)
   * [Error messages](cellfinder/troubleshooting/error-messages.md)
 * [Getting in touch](cellfinder/getting-in-touch.md)
+* [Contributing to cellfinder](cellfinder/contributing/README.md)
+  * [Setting up a development installation](cellfinder/contributing/dev-install.md)
+  * [Development conventions](cellfinder/contributing/dev-conventions.md)
+  * [Documentation](cellfinder/contributing/untitled.md)
 * [Release notes](cellfinder/release-notes.md)
 * [Citing cellfinder](cellfinder/citation.md)
 
@@ -78,11 +82,4 @@
 * [Usage](morphapi/usage/README.md)
   * [Downloading data](morphapi/usage/downloading-data.md)
   * [Rendering data](morphapi/usage/rendering-data.md)
-
----
-
-* [Contributing to cellfinder](contributing/README.md)
-  * [Development conventions](contributing/dev-conventions.md)
-  * [Setting up a development installation](contributing/dev-install.md)
-* [Documentation](untitled.md)
 

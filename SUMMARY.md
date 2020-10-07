@@ -43,6 +43,13 @@
   * [Training the network](cellfinder/user-guide/training/README.md)
     * [Using supplied training data](cellfinder/user-guide/training/using-supplied-data.md)
   * [Visualisation](cellfinder/user-guide/visualisation.md)
+* [Tutorial](cellfinder/untitled.md)
+* [Troubleshooting](cellfinder/troubleshooting/README.md)
+  * [Speeding up cellfinder](cellfinder/troubleshooting/speed-up.md)
+  * [Error messages](cellfinder/troubleshooting/error-messages.md)
+* [Getting in touch](cellfinder/getting-in-touch.md)
+* [Release notes](cellfinder/release-notes.md)
+* [Citing cellfinder](cellfinder/citation.md)
 
 ## brainreg
 

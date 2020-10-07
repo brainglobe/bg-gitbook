@@ -29,7 +29,7 @@
 * [Installation](cellfinder/installation/README.md)
   * [System requirements](cellfinder/installation/system-requirements.md)
   * [Cluster installation](cellfinder/installation/cluster-installation/README.md)
-    * [slurm](cellfinder/installation/cluster-installation/slurm.md)
+    * [Installation with SLURM](cellfinder/installation/cluster-installation/slurm.md)
   * [Using conda](cellfinder/installation/using-conda.md)
   * [Downloading files](cellfinder/installation/downloading-files.md)
   * [Setting up your GPU](cellfinder/installation/using-gpu.md)

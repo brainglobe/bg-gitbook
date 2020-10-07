@@ -18,7 +18,7 @@ If you're not completely sure what you're doing, read on.
 
 ## Requirements
 
-To run cellfinder you will need a relativelyfairlyfairly high-powered computer running Windows or Linux \(see [system requirements](system-requirements.md) for details\).
+To run cellfinder you will need a fairly high-powered computer running Windows or Linux \(see [system requirements](system-requirements.md) for details\).
 
 If you don't have access to a high-powered computer, your institute may have a compute cluster you can access. Get in touch with them, and forward them the [cluster installation](cluster-installation/) page.
 

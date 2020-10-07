@@ -97,5 +97,5 @@ Into the window, then drag and drop:
 
 #### Visualising image registration
 
-cellfinder uses [brainreg](../brainreg/introduction.md) for registration to the atlas. To check the results of this step, please see the [brainreg visualisation documentation](../brainreg/visualisation.md).
+cellfinder uses [brainreg](../brainreg/introduction.md) for registration to the atlas. To check the results of this step, open a new napari window and drag the registration directory \(e.g. `test_brain/output/registration`\) onto napari. For more details, please see the [brainreg visualisation documentation](../brainreg/visualisation.md).
 

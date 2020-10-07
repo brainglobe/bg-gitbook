@@ -53,7 +53,7 @@ This means that the registration is complete.
 
 brainreg comes with a plugin for [napari](https://napari.org/) \(see [Visualisation](visualisation.md)\) for easy visualisation of the results.
 
-To view your data, run `napari` from the same terminal/command as you ran brianreg \(or open a new one and activate your conda environment\). You can then drag and drop the `brainreg_output` directory into napari, and see the results:
+To view your data, run `napari` from the same terminal/command as you ran brianreg \(or open a new one and activate your conda environment\). You can then drag and drop the `brainreg_output` directory into napari, and see the results.
 
 {% hint style="info" %}
 The results are likely not perfect because \(for speed and simplicity\) we:

@@ -79,3 +79,10 @@
   * [Downloading data](morphapi/usage/downloading-data.md)
   * [Rendering data](morphapi/usage/rendering-data.md)
 
+---
+
+* [Contributing to cellfinder](contributing/README.md)
+  * [Development conventions](contributing/dev-conventions.md)
+  * [Setting up a development installation](contributing/dev-install.md)
+* [Documentation](untitled.md)
+

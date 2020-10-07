@@ -46,7 +46,7 @@ To run cellfinder, you need to know:
 
 ### Running cellfinder
 
-cellfinder runs with a single command, with various arguments that are detailed in [Command line options](../user-guide/usage/). To analyse the example data, the flags we need are:
+cellfinder runs with a single command, with various arguments that are detailed in [Command line options](user-guide/command-line/). To analyse the example data, the flags we need are:
 
 * `-s` The primary **s**ignal channel: `test_brain/ch00`
 * `-b` The secondary autofluorescence channel \(or **b**ackground\): `test_brain/ch01`
@@ -97,5 +97,5 @@ Into the window, then drag and drop:
 
 #### Visualising image registration
 
-cellfinder uses [brainreg](https://github.com/brainglobe/brainreg) for registration to the atlas. To check the results of this step, please see the [brainreg visualisation documentation](https://docs.brainglobe.info/brainreg/visualisation).
+cellfinder uses [brainreg](../brainreg/introduction.md) for registration to the atlas. To check the results of this step, please see the [brainreg visualisation documentation](../brainreg/visualisation.md).
 

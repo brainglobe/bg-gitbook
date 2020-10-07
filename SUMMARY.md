@@ -33,6 +33,13 @@
   * [Using conda](cellfinder/installation/using-conda.md)
   * [Downloading files](cellfinder/installation/downloading-files.md)
   * [Setting up your GPU](cellfinder/installation/using-gpu.md)
+* [User guide](cellfinder/user-guide/README.md)
+  * [Data requirements](cellfinder/user-guide/data-requirements.md)
+  * [Command line interface](cellfinder/user-guide/command-line/README.md)
+    * [Cell candidate detection](cellfinder/user-guide/command-line/candidate-detection.md)
+    * [Cell candidate classification](cellfinder/user-guide/command-line/classification.md)
+    * [Specifying pixel sizes](cellfinder/user-guide/command-line/pixel-sizes.md)
+    * [Historical options](cellfinder/user-guide/command-line/historical-options.md)
 
 ## brainreg
 

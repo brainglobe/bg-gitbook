@@ -4,7 +4,7 @@
 
 If you find cellfinder useful, and use it in your research, please cite the code repository:
 
-> Adam L. Tyson, Charly V. Rousseau, Christian J. Niedworok and Troy W. Margrie \(2020\). cellfinder: automated 3D cell detection and registration of whole-brain images. [doi:10.5281/zenodo.3665329](http://doi.org/10.5281/zenodo.3665329)
+> Adam L. Tyson, Charly V. Rousseau, Christian J. Niedworok and Troy W. Margrie \(2020\). cellfinder: automated 3D cell detection and registration of whole-brain images. [10.5281/zenodo.3891338](https://doi.org/10.5281/zenodo.3891338)
 
 ## registration
 

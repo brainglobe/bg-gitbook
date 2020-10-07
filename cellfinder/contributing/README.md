@@ -6,5 +6,5 @@ If you would like to contribute to cellfinder \(or any of the upstream tools lik
 
 If you're not sure where to start, check out the [issues](https://github.com/SainsburyWellcomeCentre/cellfinder/issues) \(and the issues of the other repositories\).
 
-For a more practical guide on how to contribute, please see [Setting up a development installation](untitled-1.md), [Development conventions](development-conventions.md) and [Documentation](documentation.md).
+For a more practical guide on how to contribute, please see [Setting up a development installation](dev-install.md), [Development conventions](dev-conventions.md) and [Documentation](untitled.md).
 

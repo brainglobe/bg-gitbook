@@ -21,7 +21,7 @@ The documentation is built with [gitbook](https://www.gitbook.com/) and mirrored
 
 **There are three ways to edit the documentation:**
 
-* **On GitHub:** Click on the link on the right hand side of the page you want to edit \(`Edit on GitHUb`\), make changes online and submit them as a pull request.
+* **On GitHub:** Click on the link on the right hand side of the page you want to edit \(`Edit on GitHub`\), make changes online and submit them as a pull request.
 * **Locally:** Fork the repository, clone locally, then submit your changes as a pull request.
-* **On gitbook:** If you find yourself editing the documentation a lot, [get in contact](../general/getting-in-touch.md) and I can give you permissions to edit the documentation directly on gitbook. 
+* **On gitbook:** If you find yourself editing the documentation a lot, [get in contact](../getting-in-touch.md) and I can give you permissions to edit the documentation directly on gitbook. 
 

@@ -6,7 +6,7 @@ description: How to get started with cellfinder
 
 ## Before you start
 
-* Make sure that cellfinder is installed \(if not see [Installation](../installation/installation.md)\)
+* Make sure that cellfinder is installed \(if not see [Installation](../installation/)\)
 * Make sure that your data is organised as expected \(see [Data requirements](data-requirements.md)\)
 
 {% hint style="info" %}

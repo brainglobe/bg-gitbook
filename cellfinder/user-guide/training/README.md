@@ -3,7 +3,7 @@
 Cellfinder includes a pretrained network for cell candidate classification. This will likely need to be retrained for different applications. Rather than generate training data blindly, the aim is to reduce the amount of hands-on time by only generating training data where cellfinder classified a cell candidate incorrectly.
 
 {% hint style="info" %}
-If you don't have any data yet, and want to try out the training see [Using supplied training data](using-supplied-training-data.md)
+If you don't have any data yet, and want to try out the training see [Using supplied training data](using-supplied-data.md)
 {% endhint %}
 
 ## Generate training data
@@ -26,7 +26,7 @@ cellfinder_curate signal_images background_images cell_classification.xml
 * `cell_classification.xml` file
 
 {% hint style="info" %}
-You must also specify the pixel sizes, see [Specifying pixel size](../usage/specifying-pixel-size.md)
+You must also specify the pixel sizes, see [Specifying pixel size](../../pixel-sizes.md)
 {% endhint %}
 
 **Optional**
@@ -69,7 +69,7 @@ _If you have any yaml files from previous versions of cellfinder, they will cont
 {% endhint %}
 
 {% hint style="info" %}
-If you would like to use the data that was originally used to train the supplied network, please see [Using supplied training data](using-supplied-training-data.md)
+If you would like to use the data that was originally used to train the supplied network, please see [Using supplied training data](using-supplied-data.md)
 {% endhint %}
 
 ```bash

@@ -14,7 +14,7 @@ As cellfinder relies on a number of third party libraries \(notably [TensorFlow]
 
 ## Speed
 
-If cellfinder is slow, there is guidance at [cellfinder is slow](cellfinder-is-slow.md)
+If cellfinder is slow, there is guidance at [cellfinder is slow](speed-up.md)
 
 ## Error messages
 
@@ -22,5 +22,5 @@ Some known error messages \(and how to fix the underlying issues\) can be found 
 
 ## Anything else
 
-If you are still having trouble, [get in touch](../general/getting-in-touch.md)
+If you are still having trouble, [get in touch](../getting-in-touch.md)
 

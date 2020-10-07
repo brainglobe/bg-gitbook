@@ -12,7 +12,7 @@ Before trying to troubleshoot, **cellfinder can be slow**. Even on a very good d
 
 ### Use a better computer
 
-Annoying advice, but a bigger, better computer will likely speed up cellfinder. See [system requirements](../installation/system-requirements.md#hardware-requirements).
+Annoying advice, but a bigger, better computer will likely speed up cellfinder. See [system requirements](../installation/system-requirements.md).
 
 ### Put your data on a fast hard drive
 
@@ -26,7 +26,7 @@ If you're using a compute cluster, there is likely to be a specific fast data st
 
 ### Cell classification or training the network is slow
 
-These steps may be slow if cellfinder is not properly using the GPU. If you have followed the instructions in [setting up your GPU](../installation/setting-up-your-gpu.md), you may need to check that everything is configured properly:
+These steps may be slow if cellfinder is not properly using the GPU. If you have followed the instructions in [setting up your GPU](../installation/using-gpu.md), you may need to check that everything is configured properly:
 
 Open a terminal \(or Anaconda Prompt\):
 
@@ -76,5 +76,5 @@ If you see something like this:
 False
 ```
 
-Then your GPU is not properly configured. If you have followed everything in [setting up your GPU](../installation/setting-up-your-gpu.md), please go speak to whoever administers your machine. If you're still stuck [get in touch](../general/getting-in-touch.md), but there is a limited amount we can do to help configure your system.
+Then your GPU is not properly configured. If you have followed everything in [setting up your GPU](../installation/using-gpu.md), please go speak to whoever administers your machine. If you're still stuck [get in touch](../getting-in-touch.md), but there is a limited amount we can do to help configure your system.
 

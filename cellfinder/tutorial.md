@@ -18,9 +18,9 @@ Although cellfinder is designed to be easy to install and use, if you're coming 
 
 ### Setting up
 
-* First install cellfinder, following the [Installation](installation/) guide.
-* Download the data from [here](https://gin.g-node.org/cellfinder/data/raw/master/test_brain_SK_AA_71_3.zip) \(it will take a long time to download\).
-* Unzip the data to a directory of your choice \(doesn't matter where\). You should end up with a directory called `test_brain` with two directories, each containing 2800 images.
+* First install cellfinder, following the [Installation](installation/) guide
+* Download the data from [here](https://gin.g-node.org/cellfinder/data/raw/master/test_brain_SK_AA_71_3.zip) \(it will take a long time to download\)
+* Unzip the data to a directory of your choice \(doesn't matter where\). You should end up with a directory called `test_brain` with two directories, each containing 2800 images
 * Open a terminal \(Linux\) or your command prompt \(Windows\)
 * Navigate to the directory containing the `test_brain` directory \(e.g. using `cd`\)
 * Activate your [conda environment ](using-conda.md)

@@ -20,7 +20,7 @@ The order of the three initials must be the same as the axis order \(sliced plan
 
 ### Voxel sizes
 
-You must also specify the size of your voxels, using the `--voxel-size` or `-v` flags. These voxel sizes are in microns, and come in the same order as your orientation definition. 
+You must also specify the size of your voxels, using the `--voxel-sizes` or `-v` flags. These voxel sizes are in microns, and come in the same order as your orientation definition. 
 
 As an example, we will assume, as above, the origin of your data \(first, top left voxel\) is the most anterior, superior, left part of the brain. If your plane spacing \(i.e. the z-depth is 5 microns\), and your in-plane resolution is 2x2 microns, then you would use:  
 

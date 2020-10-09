@@ -20,7 +20,7 @@ The plugin does not yet support multi-channel analyses \(i.e. when you are detec
 
 ![Loading raw data into napari](../../.gitbook/assets/load_data.gif)
 
-### Visualiregistrationsing your results
+### Visualising your results
 
 You can then drag and drop the cellfinder output directory \(the one you specified with the `-o` flag\) into the napari window. The plugin will then load your detected cells \(in yellow\) and the rejected cell candidates \(in blue\). If you carried out registration, then these results will be overlaid \(similarly to the [napari-brainreg](https://github.com/brainglobe/napari-brainreg) plugin, but transformed to the coordinate space of your raw data\).
 

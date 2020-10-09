@@ -86,14 +86,18 @@ cellfinder runs many different steps, and saves many files for downstream analys
 
 #### Visualising cell detection
 
-cellfinder comes with a plugin for [napari](https://napari.org/) for easily visualising the results. To open napari, just run `napari` from your command line, and a viewer window should pop up.
+cellfinder comes with a plugin for [napari](https://napari.org/) for easily visualising the results. For more information see [Visualisation](user-guide/visualisation.md). To quickly view your data:
 
-Into the window, then drag and drop:
+* Open napari \(type `napari` into a command window\)
+* Into the window then drag and drop:
+  * The signal channel directory \(`test_brain/ch00`\)
+  * The entire cellfinder output directory
 
-* The signal channel directory \(`test_brain/ch00`\)
-* The entire cellfinder output directory
+The napari window then will then be populated with different layers \(left hand side\) that can be toggled:
 
-#### Visualising image registration
-
-cellfinder uses [brainreg](../brainreg/introduction.md) for registration to the atlas. To check the results of this step, open a new napari window and drag the registration directory \(e.g. `test_brain/output/registration`\) onto napari. For more details, please see the [brainreg visualisation documentation](../brainreg/visualisation.md).
+* `ch00` The raw image data
+* `allen_mouse_10um` The atlas annotations
+* `Boundaries` The boundaries of the segmented regions
+* `Non cells` The cell candidates classfied as artefacts
+* `Cells` The cell candidates classified as cells 
 

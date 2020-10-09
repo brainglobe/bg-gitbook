@@ -38,7 +38,7 @@
   * [Training the network](cellfinder/user-guide/training/README.md)
     * [Using supplied training data](cellfinder/user-guide/training/using-supplied-data.md)
   * [Visualisation](cellfinder/user-guide/visualisation.md)
-* [Tutorial](cellfinder/untitled.md)
+* [Tutorial](cellfinder/tutorial.md)
 * [Troubleshooting](cellfinder/troubleshooting/README.md)
   * [Speeding up cellfinder](cellfinder/troubleshooting/speed-up.md)
   * [Error messages](cellfinder/troubleshooting/error-messages.md)

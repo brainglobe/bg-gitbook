@@ -20,7 +20,7 @@ Various images should then open, including:
 
 If you downsampled additional channels, these will also be loaded.
 
-Most of these images will not be visible by default. Click the little eye icon to toggle visibility.
+Some of these images will not be visible by default. Click the little eye icon to toggle visibility.
 
 _N.B. If you use a high resolution atlas \(such as `allen_mouse_10um`\), then the files can take a little while to load._
 

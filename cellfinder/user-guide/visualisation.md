@@ -47,5 +47,5 @@ Be careful which data you load, as it may use a lot of RAM.
 Each part of the dataset will be loaded a "layer" which can be hidden, adjusted and reordered using the boxes on the left hand side. See the [napari tutorials](https://napari.org/tutorials/) for how to navigate the viewer.
 {% endhint %}
 
-\*\*\*\*
+
 

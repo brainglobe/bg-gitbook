@@ -8,7 +8,8 @@
 * The registration in cellfinder has moved from [amap](https://github.com/SainsburyWellcomeCentre/amap-python) to [brainreg](https://github.com/brainglobe/brainreg), which uses the [BrainGlobe atlas API](https://github.com/brainglobe/bg-atlasapi) to suppport many more atlases. 
 * [amap](https://github.com/SainsburyWellcomeCentre/amap-python) is now deprecated, and will not be updated \(in favour ofPortugue [ brainreg](https://github.com/brainglobe/brainreg)\)
 * The default atlas is now the 25um Allen Mouse Brain atlas, but these can be chosen by using the `--atlas` flag. Run `brainglobe list` to see which atlases are available.
-* cellfinder has now adopted the  [bg-space](https://github.com/brainglobe/bg-space) convention for inputting the orientation of your data, using the `--orientation` flag. For more details see [Image orientation](image-orientation.md).
+* cellfinder has now adopted the  [bg-space](https://github.com/brainglobe/bg-space) convention for inputting the orientation of your data, using the `--orientation` flag. For more details see [Image definition](image-orientation.md)
+* The `-x`, `-y`, `-z` and `--metadata` flags have now been removed. See [Image definition](image-orientation.md) for how to enter this information.
 
 ### Added
 

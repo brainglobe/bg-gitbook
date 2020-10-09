@@ -21,7 +21,7 @@ All options can be found by running `cellfinder -h`
 * `-o` or `--output-dir` Output directory for all intermediate and final results
 
 {% hint style="warning" %}
-You must also specify the pixel sizes \(see [Specifying pixel size](../../pixel-sizes.md)\) and the [orientation of your data](../../image-orientation.md).
+You must also specify the orientation and voxel size of your data, see [Image definition](../../image-orientation.md).
 {% endhint %}
 
 ### The following options can also be used:

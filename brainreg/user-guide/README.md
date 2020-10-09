@@ -28,7 +28,7 @@ If you have any spaces in your file-path, please enclose it in quotation marks, 
 * Output directory for all intermediate and final results
 
 {% hint style="warning" %}
-You must also specify the pixel sizes \(see [Specifying pixel size](../../cellfinder/pixel-sizes.md)\) and the orientation of your data \(see [Image orientation](../../cellfinder/image-orientation.md)\).
+You must also specify the orientation and voxel size of your data, see [Image definition](../../cellfinder/image-orientation.md).
 {% endhint %}
 
 ### Additional options

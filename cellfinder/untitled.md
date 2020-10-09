@@ -40,8 +40,8 @@ To run cellfinder, you need to know:
 * Where your data is \(in this case, it's the path to the `test_brain` directory\)
 * Which image is the primary signal channel \(the one with the labelled cells\) and which is the secondary autofluorescence channel. In this case, `test_brain/ch00` is the signal channel and `test_brain/ch01` is the autofluroescence channel
 * Where you want to save the output data \(we'll just save it into a directory called `cellfinder_output`in the same directory as the `test_brain`\)
-* The pixel sizes of your data in microns \(see [Specifying pixel size](pixel-sizes.md) for details\). In this case, our data is 2um per pixel in x and y \(in the coronal plane\) and 5um in z \(the spacing of each plane\).
-* The orientation of your data. For atlas registration \(using [brainreg](../brainreg/introduction.md)\) the software needs to know how you acquired your data \(coronal, saggital etc.\). For this cellfinder uses [bg-space](../bg-space/bg-space.md). Full details on how to enter your data orientation can be found [here](../bg-space/usage.md#the-spaceconvention-class), but for this tutorial, the orientation is `psl`, which means that the data origin is the most **p**osterior, **s**uperior, **l**eft voxel.  
+* The pixel sizes of your data in microns \(see  [Image definition](image-orientation.md) for details\). In this case, our data is 2um per pixel in x and y \(in the coronal plane\) and 5um in z \(the spacing of each plane\).
+* The orientation of your data. For atlas registration \(using [brainreg](../brainreg/introduction.md)\) the software needs to know how you acquired your data \(coronal, saggital etc.\). For this cellfinder uses [bg-space](../bg-space/bg-space.md). Full details on how to enter your data orientation can be found [here](image-orientation.md), but for this tutorial, the orientation is `psl`, which means that the data origin is the most **p**osterior, **s**uperior, **l**eft voxel.  
 * Which atlas you want to use \(you can see which are available by running `brainglobe list`. In this case, we want to use a mouse atlas \(as that's what our data is\), and we'll use the 10um version of the [Allen Mouse Brain Atlas](https://mouse.brain-map.org/static/atlas). 
 
 ### Running cellfinder
@@ -51,16 +51,14 @@ cellfinder runs with a single command, with various arguments that are detailed 
 * `-s` The primary **s**ignal channel: `test_brain/ch00`
 * `-b` The secondary autofluorescence channel \(or **b**ackground\): `test_brain/ch01`
 * `-o` The **o**utput directory :  `test_brain/output`
-* `-x` The pixel spacing in the first dimension \(left to right on a single plane in an image\): `2`
-* `-y` The pixel spacing in the second dimension \(top to bottom on a single plane in an image\): `2`
-* `-z` The pixel spacing in the third dimension \(the plane spacing\): 5
 * `--orientation` The data orientation: `psl`
+* `-v` The voxel spacing in the same order as the data orientation \(`psl`\): `5 2 2` 
 * `--atlas` The atlas we want to use: `allen_mouse_10um`
 
 Putting this all together into a single command gives:
 
 ```text
-cellfinder -s test_brain/ch00 -b test_brain/ch01 -o test_brain/output -x 2 -y 2 -z 5 --orientation psl --atlas allen_mouse_10um
+cellfinder -s test_brain/ch00 -b test_brain/ch01 -o test_brain/output -v 5 2 2 --orientation psl --atlas allen_mouse_10um
 ```
 
 This command will take quite a long time \(anywhere from 2-10 hours\) to run, depending on:
@@ -75,7 +73,7 @@ If you just want to check that everything is working, we can speed everything up
 * Using a lower-resolution atlas, using the flag: `--atlas allen_mouse_25um`
 
 ```text
-cellfinder -s test_brain/ch00 -b test_brain/ch01 -o test_brain/output -x 2 -y 2 -z 5 --orientation psl --atlas allen_mouse_25um --start-plane 1500 --end-plane 1550
+cellfinder -s test_brain/ch00 -b test_brain/ch01 -o test_brain/output -v 5 2 2 --orientation psl --atlas allen_mouse_25um --start-plane 1500 --end-plane 1550
 ```
 
 {% hint style="warning" %}

@@ -26,7 +26,7 @@ cellfinder_curate signal_images background_images cell_classification.xml
 * `cell_classification.xml` file
 
 {% hint style="info" %}
-You must also specify the pixel sizes, see [Specifying pixel size](../../pixel-sizes.md)
+You must also specify the pixel sizes, see [Specifying pixel size]()
 {% endhint %}
 
 **Optional**

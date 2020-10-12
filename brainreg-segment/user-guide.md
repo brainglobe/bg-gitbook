@@ -30,8 +30,6 @@ There are three options for loading your data \(in the `Load data` section of th
 
 \*\*\*\*
 
-\*\*\*\*
-
 * Ensure that the "new\_region" tab is selected \(left hand side\)
 * Rename this region \(by selecting the "new\_region" text\)
 * Navigate to where you want to draw your region of interest.
@@ -54,8 +52,4 @@ There are three options for loading your data \(in the `Load data` section of th
 * To add a new region press `Control+N`
 * Repeat above for each region you wish to segment.
 * Press `Alt-Q` on your keyboard to save the regions. If you used the `--preview flag`, once they are saved, they will be displayed in a brainrender window.
-
-**Editing regions:**
-
-If you have already run `manual_region_seg`, and run it again, the segmented regions will be shown. You can edit them, and press `Control+S` to resave them. If you don't want to save any changes, press `Control+X` to exit. The regions will still be previewed if you have selected that option.
 

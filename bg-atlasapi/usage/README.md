@@ -131,7 +131,7 @@ A very convenient feature of the `BrainGlobeAtlas` API is the simplicity of quer
 
 ```python
 # Ask for identity of some indexes in the stack:
-bg_atlas.structure_from_coords((50, 40, 30), s_acronym=True)
+bg_atlas.structure_from_coords((50, 40, 30), as_acronym=True)
 
 # Now give coordinates in microns:
 bg_atlas.structure_from_coords((5000, 4000, 3000), as_acronym=True, 

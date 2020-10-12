@@ -61,6 +61,10 @@
 * [Tutorial](brainreg/tutorial.md)
 * [Visualisation](brainreg/visualisation.md)
 
+## brainreg-segment
+
+* [Introduction](brainreg-segment/introduction.md)
+
 ## BG-brainrender-GUI
 
 * [BG-brainrender-GUI](bg-brainrender-gui/bg-brainrender-gui.md)

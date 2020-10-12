@@ -14,42 +14,23 @@ Please follow the instructions for these packages, and ensure that the channel t
 
 ## Usage
 
-### Command line
+To load the software, just type `brainreg_segment` into your command window.
 
-```bash
-    manual_region_seg "name_of_downsampled_image.nii" registration_directory
-```
+A [napari](https://github.com/napari/napari) viewer will then open, with some options for loading data:
 
-#### Arguments
+![brainreg interface](../.gitbook/assets/brainreg_segment.png)
 
-Run `manual_region_seg -h` to see all options.
+**To load your data**
 
-**Positional arguments**
+There are three options for loading your data \(in the `Load data` section of the GUI\):
 
-* Downsampled image to be segmented, as a string \(e.g. `"downsampled.nii"`\)
-* amap/cellfinder registration directory \(e.g.
+* `Load project (sample space)` - This is for loading a brainreg project in the coordinate space of your raw data \(i.e not warped to the atlas space\). N.B. the data will have been reoriented to the orientation of your chosen atlas, but it can be reoriented using the napari button in the bottom left \(a cube with an arrow above it\). **Click this button, then choose your brainreg \(or cellfinder registration\) output directory.**
+* `Load project (sample space)` - As above, but the data loaded will have been warped into the atlas space. This is most useful when you want to visualise your segmented structures in [brainrender](https://github.com/BrancoLab/brainrender), as they must be in atlas space to do so. **Click this button, then choose your brainreg \(or cellfinder registration\) output directory.**
+* `Load atlas` If you don't have your own data registered to the atlas, then you can just load the atlas. Useful for making visualisations etc. **Click this drop-down menu, then pick an atlas.**
 
-  `/home/analysis/cellfinder_output/registration/`\)
+\*\*\*\*
 
-**The following options may also be used:**
-
-* `--preview` Preview the segmented regions in brainrender \(default:False\)
-* `--volumes` Calculate the volume of each brain area included in the
-
-  segmented region
-
-* `--summarise` Summarise each region \(centers, volumes etc.\)
-* `--shading` Object shading type for brainrender \(`flat`, `giroud` or `phong`\). Default: `flat`
-* `--alpha` Object transparency for brainrender
-* `--brush-size` Default size of the label brush.
-
-### napari GUI
-
-manual\_region\_seg will transform your image into standard space \(this may take a few minutes\) and then display the image in a [napari](https://github.com/napari/napari) viewer:
-
-![manual\_seg\_window](https://raw.githubusercontent.com/SainsburyWellcomeCentre/neuro/master/resources/manual_segmentation_window.png)
-
-**To segment regions:**
+\*\*\*\*
 
 * Ensure that the "new\_region" tab is selected \(left hand side\)
 * Rename this region \(by selecting the "new\_region" text\)

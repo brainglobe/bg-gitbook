@@ -26,8 +26,6 @@ There are three options for loading your data \(in the `Load data` section of th
 * `Load project (atlas space)` - As above, but the data loaded will have been warped into the atlas space. This is most useful when you want to visualise your segmented structures in [brainrender](https://github.com/BrancoLab/brainrender), as they must be in atlas space to do so. **Click this button, then choose your brainreg \(or cellfinder registration\) output directory.**
 * `Load atlas` If you don't have your own data registered to the atlas, then you can just load the atlas. Useful for making visualisations etc. **Click this drop-down menu, then pick an atlas.**
 
-
-
 ### **Navigating**
 
 Your data will then appear as a napari "Layer" on the right hand side, and will include your sample data \(including any additionally downsampled channels\), and the atlas. If you select the atlas layer and make it visible \(by toggling the eye icon\), hovering over a brain region will show the region in the bottom left corner**.**

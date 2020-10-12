@@ -64,6 +64,9 @@
 ## brainreg-segment
 
 * [Introduction](brainreg-segment/introduction.md)
+* [User guide](brainreg-segment/user-guide.md)
+* [Applications](brainreg-segment/applications/README.md)
+  * [Silicon probe tracking](brainreg-segment/applications/silicon-probe-tracking.md)
 
 ## BG-brainrender-GUI
 

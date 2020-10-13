@@ -2,6 +2,10 @@
 
 ## Version 0.4.2 \(2020-10-13\)
 
+Fixed a bug in the final data export
+
+## Version 0.4.2 \(2020-10-13\)
+
 Minor bug fixes
 
 ## Version 0.4.1 \(2020-10-13\)

@@ -18,13 +18,13 @@ Make sure you activate your conda environment before running cellfinder
 The cell detection via cellfinder can be run with a single terminal command \(`cellfinder`\):
 
 ```text
-    cellfinder -s signal_channel_images  -b background_channel_images -o /path/to/output_directory -x 2 -y 2 -z 5 --orientation psl
+    cellfinder -s signal_channel_images  -b background_channel_images -o /path/to/output_directory -v 5 2 2 --orientation psl
 ```
 
 Multiple channels can also be processed at once:
 
 ```text
-cellfinder -s first_signal_channel_images  second_signal_channel_images -b background_channel_images -o /path/to/output_directory -x 2 -y 2 -z 5 --orientation psl
+cellfinder -s first_signal_channel_images  second_signal_channel_images -b background_channel_images -o /path/to/output_directory -v 5 5 2 --orientation psl
 ```
 
 However, there are many options to define your data and to change what parts of the analysis are run, and how they are run. You should look though the [Command line options](usage/).

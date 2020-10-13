@@ -1,6 +1,6 @@
 # Release notes
 
-## Version 0.4.0 \(TBC\)
+## Version 0.4.0 \(2020-10-13\)
 
 ### Main Updates
 
@@ -12,6 +12,7 @@
 * The `-x`, `-y`, `-z` and `--metadata` flags have now been removed. See [Image definition](image-orientation.md) for how to enter this information.
 * `manual_seg` has now been replaced with a new \(brainreg-based\) tool, [brainreg-segment](../brainreg-segment/introduction.md).
 * Support for Python 3.6 has been dropped, and support for Python 3.8 added \(this is now the recommended Python version\).
+* Data visualisation has now moved to napari plugins, see  [Visualisation](user-guide/visualisation.md).
 
 ### Added
 

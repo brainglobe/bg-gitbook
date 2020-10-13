@@ -5,7 +5,7 @@ description: Getting started with cellfinder
 # Tutorial
 
 {% hint style="danger" %}
-For more information and other options or analysis see the [User guide](https://app.gitbook.com/@brainglobe/s/brainglobe/~/drafts/-MJXWxUf7DN03oIJlO80/cellfinder/user-guide)**Still a work in progress.**
+**Still a work in progress.**
 {% endhint %}
 
 Although cellfinder is designed to be easy to install and use, if you're coming to it with fresh eyes, it's not always clear where to start. We provide an example brain to get you started, and also to illustrate how to play with the parameters to better suit your data.

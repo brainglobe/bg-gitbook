@@ -39,6 +39,7 @@
     * [Using supplied training data](cellfinder/user-guide/training/using-supplied-data.md)
   * [Visualisation](cellfinder/user-guide/visualisation.md)
 * [Tutorial](cellfinder/tutorial/README.md)
+  * [Exploring the numerical results](cellfinder/tutorial/exploring-the-numerical-results.md)
   * [Visualising your data in brainrender](cellfinder/tutorial/visualising-your-data-in-brainrender.md)
 * [Troubleshooting](cellfinder/troubleshooting/README.md)
   * [Speeding up cellfinder](cellfinder/troubleshooting/speed-up.md)

@@ -107,7 +107,7 @@ The napari window then will then be populated with different layers \(left hand 
 * `Non cells` The cell candidates classfied as artefacts
 * `Cells` The cell candidates classified as cells 
 
-### Exploring the results
+### Exploring the numerical results
 
 In the `test_brain/output/analysis` directory is a `summary.csv` file which you can open in Microsoft Excel \(or similar\) to view a summary of the results. This file lists, for each brain area, the number of cells detected, the volume of the brain area, and the density of cells \(in cells per mm^3\). This is the file you'll most likely use for statistical analysis. It will look something like this:	
 

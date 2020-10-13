@@ -14,9 +14,7 @@ Although cellfinder is designed to be easy to install and use, if you're coming 
 **The test dataset is large** \(~250GB\). It is recommended that you try this tutorial out on the fastest machine you have, with the fastest hard drive possible \(ideally SSD\) and an NVIDIA GPU. See [System requirements](installation/system-requirements.md) for more details.
 {% endhint %}
 
-## Instructions
-
-### Setting up
+## Setting up
 
 * First install cellfinder, following the [Installation](installation/) guide
 * Download the data from [here](https://gin.g-node.org/cellfinder/data/raw/master/test_brain_SK_AA_71_3.zip) \(it will take a long time to download\)
@@ -33,7 +31,7 @@ The aim of this tutorial is not to show cellfinder performing perfectly, but to 
 With all analysis methods, please test it out on your data to see if it works for you, and feel free to ask a question on the [forum](https://gitter.im/BrainGlobe/cellfinder).
 {% endhint %}
 
-#### Before you start
+### Before you start
 
 To run cellfinder, you need to know:
 
@@ -44,7 +42,7 @@ To run cellfinder, you need to know:
 * The orientation of your data. For atlas registration \(using [brainreg](../brainreg/introduction.md)\) the software needs to know how you acquired your data \(coronal, sagittal etc.\). For this cellfinder uses [bg-space](../bg-space/bg-space.md). Full details on how to enter your data orientation can be found [here](image-orientation.md), but for this tutorial, the orientation is `psl`, which means that the data origin is the most **p**osterior, **s**uperior, **l**eft voxel.  
 * Which atlas you want to use \(you can see which are available by running `brainglobe list`. In this case, we want to use a mouse atlas \(as that's what our data is\), and we'll use the 10um version of the [Allen Mouse Brain Atlas](https://mouse.brain-map.org/static/atlas)
 
-### Running cellfinder
+## Running cellfinder
 
 cellfinder runs with a single command, with various arguments that are detailed in [Command line options](user-guide/command-line/). To analyse the example data, the flags we need are:
 
@@ -88,11 +86,11 @@ If your machine has less than 32GB of RAM, you should use the `allen_mouse_25um`
 If the cell classification step takes a \(very\) long time, it may not be using the GPU. If you have an NVIDIA GPU, see [Speeding up cellfinder](troubleshooting/speed-up.md#cell-classification-or-training-the-network-is-slow) to make sure that your GPU is set up properly.
 {% endhint %}
 
-### Understanding the results
+## Understanding the results
 
 cellfinder runs many different steps, and saves many files for downstream analysis. By default \(many of these parts can be disabled with command-line flags\) the following steps will be run:
 
-#### Visualising cell detection and registration
+### Visualising cell detection and registration
 
 cellfinder comes with a plugin for [napari](https://napari.org/) for easily visualising the results. For more information see [Visualisation](user-guide/visualisation.md). To quickly view your data:
 
@@ -109,7 +107,7 @@ The napari window then will then be populated with different layers \(left hand 
 * `Non cells` The cell candidates classfied as artefacts
 * `Cells` The cell candidates classified as cells 
 
-#### Exploring the results
+### Exploring the results
 
 In the `test_brain/output/analysis` directory is a `summary.csv` file which you can open in Microsoft Excel \(or similar\) to view a summary of the results. This file lists, for each brain area, the number of cells detected, the volume of the brain area, and the density of cells \(in cells per mm^3\). This is the file you'll most likely use for statistical analysis. It will look something like this:	
 
@@ -122,7 +120,7 @@ In the `test_brain/output/analysis` directory is a `summary.csv` file which you 
 | Retrosplenial area, dorsal part, layer 2/3 | 256 | 301 | 557 | 0.52496875 | 0.532625 | 1.05759375 | 487.648074290136 | 565.125557380897 |
 | Anteroventral nucleus of thalamus | 543 | 0 | 543 | 0.196265625 | 0.185734375 | 0.382 | 2766.65870551708 | 0 |
 
-#### Visualising your data in brainrender
+### Visualising your data in brainrender
 
 ![3D brainrender visualisation of cellfinder results](../.gitbook/assets/br.png)
 

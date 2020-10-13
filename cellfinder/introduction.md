@@ -26,5 +26,5 @@ For detailed instructions see [Installation](installation/)
 
 ## Usage
 
-For information on how to use cellfinder, see the [User guide](user-guide/), or for a step-by step walkthrough, see the [Tutorial](tutorial.md).
+For information on how to use cellfinder, see the [User guide](user-guide/), or for a step-by step walkthrough, see the [Tutorial](tutorial/).
 

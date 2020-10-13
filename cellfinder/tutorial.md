@@ -5,7 +5,7 @@ description: Getting started with cellfinder
 # Tutorial
 
 {% hint style="danger" %}
-**Still a work in progress.**
+For more information and other options or analysis see the [User guide](https://app.gitbook.com/@brainglobe/s/brainglobe/~/drafts/-MJXWxUf7DN03oIJlO80/cellfinder/user-guide)**Still a work in progress.**
 {% endhint %}
 
 Although cellfinder is designed to be easy to install and use, if you're coming to it with fresh eyes, it's not always clear where to start. We provide an example brain to get you started, and also to illustrate how to play with the parameters to better suit your data.
@@ -26,11 +26,11 @@ Although cellfinder is designed to be easy to install and use, if you're coming 
 * Activate your [conda environment ](using-conda.md)
 
 {% hint style="info" %}
-The test data supplied is purposefully not the "best". It has some artefacts such as fluorescent vasculature, and bright spots on the surface of the brain. The cell classification network was trained on different data, to give you an idea of "real world" performance.
+The test data supplied is purposefully not the "best". It has a low SNR, and some artefacts such as fluorescent vasculature, and bright spots on the surface of the brain. In addition, the cell classification network was trained on different data, to give you an idea of "real world" performance.
 
 The aim of this tutorial is not to show cellfinder performing perfectly, but to illustrate how it deals with less than perfect data, and how to improve the performance.
 
-With all analysis methods, please test it out on your data to see if it works for you, and feel free to ask a question on the [forum](https://gitter.im/cellfinder/).
+With all analysis methods, please test it out on your data to see if it works for you, and feel free to ask a question on the [forum](https://gitter.im/BrainGlobe/cellfinder).
 {% endhint %}
 
 #### Before you start
@@ -41,7 +41,7 @@ To run cellfinder, you need to know:
 * Which image is the primary signal channel \(the one with the labelled cells\) and which is the secondary autofluorescence channel. In this case, `test_brain/ch00` is the signal channel and `test_brain/ch01` is the autofluroescence channel
 * Where you want to save the output data \(we'll just save it into a directory called `cellfinder_output`in the same directory as the `test_brain`\)
 * The pixel sizes of your data in microns \(see  [Image definition](image-orientation.md) for details\). In this case, our data is 2um per pixel in in the coronal plane and the spacing of each plane is 5um
-* The orientation of your data. For atlas registration \(using [brainreg](../brainreg/introduction.md)\) the software needs to know how you acquired your data \(coronal, saggital etc.\). For this cellfinder uses [bg-space](../bg-space/bg-space.md). Full details on how to enter your data orientation can be found [here](image-orientation.md), but for this tutorial, the orientation is `psl`, which means that the data origin is the most **p**osterior, **s**uperior, **l**eft voxel.  
+* The orientation of your data. For atlas registration \(using [brainreg](../brainreg/introduction.md)\) the software needs to know how you acquired your data \(coronal, sagittal etc.\). For this cellfinder uses [bg-space](../bg-space/bg-space.md). Full details on how to enter your data orientation can be found [here](image-orientation.md), but for this tutorial, the orientation is `psl`, which means that the data origin is the most **p**osterior, **s**uperior, **l**eft voxel.  
 * Which atlas you want to use \(you can see which are available by running `brainglobe list`. In this case, we want to use a mouse atlas \(as that's what our data is\), and we'll use the 10um version of the [Allen Mouse Brain Atlas](https://mouse.brain-map.org/static/atlas)
 
 ### Running cellfinder
@@ -52,8 +52,12 @@ cellfinder runs with a single command, with various arguments that are detailed 
 * `-b` The secondary autofluorescence channel \(or **b**ackground\): `test_brain/ch01`
 * `-o` The **o**utput directory :  `test_brain/output`
 * `--orientation` The data orientation: `psl`
-* `-v` The voxel spacing in the same order as the data orientation \(`psl`\): `5 2 2` 
+* `-v` The **v**oxel spacing in the same order as the data orientation \(`psl`\): `5 2 2` 
 * `--atlas` The atlas we want to use: `allen_mouse_10um`
+
+{% hint style="warning" %}
+If your machine has less than 32GB of RAM, you should use the `allen_mouse_25um` atlas either way, as registration with the high-resolution atlas requires about 30GB for this image.
+{% endhint %}
 
 Putting this all together into a single command gives:
 
@@ -78,6 +82,10 @@ cellfinder -s test_brain/ch00 -b test_brain/ch01 -o test_brain/output -v 5 2 2 -
 
 {% hint style="warning" %}
 If your machine has less than 32GB of RAM, you should use the `allen_mouse_25um` atlas either way, as registration with the high-resolution atlas requires about 30GB for this image.
+{% endhint %}
+
+{% hint style="info" %}
+If the cell classification step takes a \(very\) long time, it may not be using the GPU. If you have an NVIDIA GPU, see [Speeding up cellfinder](troubleshooting/speed-up.md#cell-classification-or-training-the-network-is-slow) to make sure that your GPU is set up properly.
 {% endhint %}
 
 ### Understanding the results

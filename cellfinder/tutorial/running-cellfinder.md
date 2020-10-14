@@ -29,6 +29,11 @@ This command will take quite a long time \(anywhere from 2-10 hours\) to run, de
 * The CPU speed and number of cores
 * The GPU you have
 
+{% hint style="info" %}
+You'll know cellfinder has finished when you see something like this:  
+`2020-10-14 00:07:20 AM - INFO - MainProcess main.py:86 - Finished. Total time taken: 3:22:42`
+{% endhint %}
+
 If you just want to check that everything is working, we can speed everything up by:
 
 * Only analysing part of the brain using the flags: `--start-plane 1500 --end-plane 1550`

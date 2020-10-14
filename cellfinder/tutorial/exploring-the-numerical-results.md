@@ -8,11 +8,12 @@ In the `test_brain/output/analysis` directory is a `summary.csv` file which you 
 
 | structure\_name | left\_cell\_count | right\_cell\_count | total\_cells | left\_volume\_mm3 | right\_volume\_mm3 | total\_volume\_mm3 | left\_cells\_per\_mm3 | right\_cells\_per\_mm3 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Retrosplenial area, ventral part, layer 5 | 1717 | 780 | 2497 | 0.935890625 | 0.907375 | 1.843265625 | 1834.61609095614 | 859.622537539606 |
-| Lateral dorsal nucleus of thalamus | 1189 | 0 | 1189 | 0.52415625 | 0.498734375 | 1.022890625 | 2268.40755976868 | 0 |
-| Retrosplenial area, dorsal part, layer 5 | 645 | 125 | 770 | 0.659375 | 0.66290625 | 1.32228125 | 978.199052132701 | 188.563616650167 |
-| Retrosplenial area, ventral part, layer 2/3 | 147 | 588 | 735 | 0.563359375 | 0.548703125 | 1.1120625 | 260.934683123006 | 1071.61773500014 |
-| Retrosplenial area, dorsal part, layer 2/3 | 256 | 301 | 557 | 0.52496875 | 0.532625 | 1.05759375 | 487.648074290136 | 565.125557380897 |
+| Retrosplenial area, ventral part, layer 5 | 1853 | 814 | 2667 | 0.952479 | 0.966508 | 1.918987 | 1945.44971595174 | 842.207203665153 |
+| Lateral dorsal nucleus of thalamus | 1541 | 0 | 1541 | 0.597768 | 0.534717 | 1.132485 | 2577.92320766585 | 0 |
+| Retrosplenial area, ventral part, layer 2/3 | 163 | 686 | 849 | 0.57638 | 0.614387 | 1.190767 | 282.79954196884 | 1116.56008346531 |
+| Retrosplenial area, dorsal part, layer 5 | 561 | 82 | 643 | 0.611487 | 0.644904 | 1.256391 | 917.435693645163 | 127.150707702232 |
+| Retrosplenial area, dorsal part, layer 2/3 | 194 | 245 | 439 | 0.460668 | 0.492384 | 0.953052 | 421.127579949117 | 497.579125235589 |
+| Ventral anterior-lateral complex of the thalamus | 412 | 0 | 412 | 0.397422 | 0.365181 | 0.762603 | 1036.6814116984 | 0 |
 
 
 

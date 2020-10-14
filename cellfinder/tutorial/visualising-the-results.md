@@ -21,6 +21,12 @@ The napari window then will then be populated with different layers \(left hand 
 * `Non cells` The cell candidates classfied as artefacts \(blue\)
 * `Cells` The cell candidates classified as cells \(yellow\)
 
+If you click on the image above to enlarge, you should get a good idea of how cellfinder works:
+
+* The coloured regions and the outlines show the segmentation of the brain \(following atlas registration\).
+* The yellow circles show the detected cells \(mostly in retrosplenial cortex and thalamus\). There are also a few false positives \(such as three on the surface of the brain and one outside the brain\). This shows that the cell classification network \(trained on other brains\) is not quite 100%, and should be retrained with the addition of some data from this brain.
+* The blue circles show those cell candidates classed as artefacts by the cell classification network. The majority of these are outside the brain, on the brain surface, or are blood vessels. A small number are cells, again indicating that the classification network could be retrained.
+
 {% hint style="info" %}
 To make the results a bit more obvious when zoomed out, I've adjusted the contrast of the raw data \(`ch00`\), along with changing the symbol for the cells to `disc` and increasing the size.
 {% endhint %}

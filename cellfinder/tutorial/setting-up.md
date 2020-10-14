@@ -30,3 +30,5 @@ To run cellfinder, you need to know:
 * The orientation of your data. For atlas registration \(using [brainreg](../../brainreg/introduction.md)\) the software needs to know how you acquired your data \(coronal, sagittal etc.\). For this cellfinder uses [bg-space](../../bg-space/bg-space.md). Full details on how to enter your data orientation can be found [here](../image-orientation.md), but for this tutorial, the orientation is `psl`, which means that the data origin is the most **p**osterior, **s**uperior, **l**eft voxel.  
 * Which atlas you want to use \(you can see which are available by running `brainglobe list`. In this case, we want to use a mouse atlas \(as that's what our data is\), and we'll use the 10um version of the [Allen Mouse Brain Atlas](https://mouse.brain-map.org/static/atlas)
 
+Now you're ready to start [Running cellfinder](running-cellfinder.md).
+

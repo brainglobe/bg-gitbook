@@ -51,5 +51,5 @@ If your machine has less than 32GB of RAM, you should use the `allen_mouse_25um`
 If the cell classification step takes a \(very\) long time, it may not be using the GPU. If you have an NVIDIA GPU, see [Speeding up cellfinder](../troubleshooting/speed-up.md#cell-classification-or-training-the-network-is-slow) to make sure that your GPU is set up properly.
 {% endhint %}
 
-
+Once cellfinder has run, you can go onto [Visualising the results](visualising-the-results.md)
 

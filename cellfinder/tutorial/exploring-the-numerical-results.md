@@ -14,3 +14,7 @@ In the `test_brain/output/analysis` directory is a `summary.csv` file which you 
 | Retrosplenial area, ventral part, layer 2/3 | 147 | 588 | 735 | 0.563359375 | 0.548703125 | 1.1120625 | 260.934683123006 | 1071.61773500014 |
 | Retrosplenial area, dorsal part, layer 2/3 | 256 | 301 | 557 | 0.52496875 | 0.532625 | 1.05759375 | 487.648074290136 | 565.125557380897 |
 
+
+
+These data allow you to compare data from multiple samples, but to visualise data from different samples in the same coordinate space, take a look at [Visualising your data in brainrender](visualising-your-data-in-brainrender.md).
+

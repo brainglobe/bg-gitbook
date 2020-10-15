@@ -27,7 +27,7 @@ Multiple channels can also be processed at once:
 cellfinder -s first_signal_channel_images  second_signal_channel_images -b background_channel_images -o /path/to/output_directory -v 5 5 2 --orientation psl
 ```
 
-However, there are many options to define your data and to change what parts of the analysis are run, and how they are run. You should look though the [Command line options](../../bg-atlasapi/usage/command-line-interface.md).
+However, there are many options to define your data and to change what parts of the analysis are run, and how they are run. You should look though the [Command line options](command-line/).
 
 {% hint style="warning" %}
 If you have any spaces in your file-path, please enclose it in quotation marks, otherwise cellfinder will interpret it as two inputs, separated by a space.

@@ -10,7 +10,7 @@ If you don't have any data yet, and want to try out the training see [Using supp
 
 To generate training data, you will need:
 
-* The cellfinder output file, `cell_classification.xml` \(but `cells.xml` can also work\).
+* The cellfinder output file, `cell_classification.xml` \(it's in the `points` subdirectory\).
 * The raw data used initially for cellfinder
 
 To generate training data for a single brain, use `cellfinder_curate`:

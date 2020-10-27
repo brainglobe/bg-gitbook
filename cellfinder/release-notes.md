@@ -1,6 +1,10 @@
 # Release notes
 
-## Version 0.4.2 \(2020-10-13\)
+## Version 0.4.4 \(2020-10-27\)
+
+Updated data export to be compatible with brainrender 1.1
+
+## Version 0.4.3 \(2020-10-13\)
 
 Fixed a bug in the final data export
 

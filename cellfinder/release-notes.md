@@ -1,5 +1,9 @@
 # Release notes
 
+## Version 0.4.5 \(2020-10-29\)
+
+Fixed a bug in `cellfinder_curate`
+
 ## Version 0.4.4 \(2020-10-27\)
 
 Updated data export to be compatible with brainrender 1.1

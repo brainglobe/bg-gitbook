@@ -1,5 +1,9 @@
 # Release notes
 
+## Version 0.4.6 \(2020-11-06\)
+
+Fixes a bug that prevents cells from being detected if the background intensity of the image is zero.
+
 ## Version 0.4.5 \(2020-10-29\)
 
 Fixed a bug in `cellfinder_curate`

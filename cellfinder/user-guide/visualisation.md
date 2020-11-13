@@ -14,10 +14,6 @@ To view your data, firstly open napari. The easiest way to do this is open a ter
 
 Assuming that your raw data is stored as `.tiff` files, drag these into napari \(onto the main window in the middle\). This should be whatever you passed to cellfinder originally, i.e. a single multipage tiff, or a directory of 2D tiffs. You can load as many channels as you like \(e.g. the signal and the background channel\).
 
-{% hint style="info" %}
-The plugin does not yet support multi-channel analyses \(i.e. when you are detecting cells in &gt;1 channel\).
-{% endhint %}
-
 ![Loading raw data into napari](../../.gitbook/assets/load_data.gif)
 
 ### Visualising your results

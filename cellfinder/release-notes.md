@@ -1,5 +1,11 @@
 # Release notes
 
+## Version 0.4.7 \(TBC\)
+
+Exports a list of every detected cell
+
+Fixed a bug causing cell distribution analysis to be rerun if already completed.
+
 ## Version 0.4.6 \(2020-11-06\)
 
 Fixes a bug that prevents cells from being detected if the background intensity of the image is zero.

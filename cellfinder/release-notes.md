@@ -1,10 +1,21 @@
 # Release notes
 
-## Version 0.4.7 \(TBC\)
+## Version 0.4.7 \(2020-11-25\)
 
-Exports a list of every detected cell
+### Added
 
-Fixed a bug causing cell distribution analysis to be rerun if already completed.
+* A csv of every detected cell is now exported with coordinates and brain region
+
+### Fixed
+
+* Fixed a bug causing cell distribution analysis to be rerun if already completed.
+* Updated cell export to be compatible with brainrender v0.2.0
+
+### Developers
+
+* Testing and deployment has moved from TravisCI to GitHub actions
+
+
 
 ## Version 0.4.6 \(2020-11-06\)
 

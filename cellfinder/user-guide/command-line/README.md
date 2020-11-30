@@ -5,7 +5,7 @@
 To run cellfinder, use this general syntax
 
 ```bash
-    cellfinder -s signal_channel_images  optional_signal_channel_images -b background_channel_images -o /path/to/output_directory -x 2 -y 2 -z 5 --orientation asl
+    cellfinder -s signal_channel_images  optional_signal_channel_images -b background_channel_images -o /path/to/output_directory -v 5 2 2 --orientation asl
 ```
 
 {% hint style="info" %}
@@ -17,7 +17,7 @@ All options can be found by running `cellfinder -h`
 ### Mandatory
 
 * `-s` or `--signal-planes-paths` Path to the directory of the signal files. Can also be a text file pointing to the files. **There can be as many signal channels as you like, and each will be treated independently**. 
-* `b` or `--signal-planes-path` Path to the directory of the background files. Can also be a text file pointing to the files.  **This background channel will be used for all signal channels**
+* `-b` or `--background-planes-path` Path to the directory of the background files. Can also be a text file pointing to the files.  **This background channel will be used for all signal channels**
 * `-o` or `--output-dir` Output directory for all intermediate and final results
 
 {% hint style="warning" %}

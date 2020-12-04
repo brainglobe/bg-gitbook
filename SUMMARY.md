@@ -19,6 +19,8 @@
   * [structure\_class](bg-atlasapi/api/structure_class.md)
   * [update\_atlases](bg-atlasapi/api/update_atlases.md)
   * [utils](bg-atlasapi/api/utils.md)
+* [BrainGlobe's publications](bg-atlasapi/brainglobes-publications.md)
+* [Work using BrainGlobe's tools](bg-atlasapi/work-using-brainglobes-tools.md)
 
 ## cellfinder
 
@@ -73,11 +75,6 @@
 * [Applications](brainreg-segment/applications/README.md)
   * [Silicon probe tracking](brainreg-segment/applications/silicon-probe-tracking.md)
 
-## BG-brainrender-GUI
-
-* [BG-brainrender-GUI](bg-brainrender-gui/bg-brainrender-gui.md)
-* [Usage](bg-brainrender-gui/usage.md)
-
 ## bg-space
 
 * [BG-Space](bg-space/bg-space.md)
@@ -89,4 +86,8 @@
 * [Usage](morphapi/usage/README.md)
   * [Downloading data](morphapi/usage/downloading-data.md)
   * [Rendering data](morphapi/usage/rendering-data.md)
+
+## Brainrender
+
+* [Untitled](brainrender/untitled.md)
 

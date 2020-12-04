@@ -7,6 +7,7 @@ A brief collection of scientific articles and other works using tools from Brain
 | **Uses** | Link |
 | :--- | :--- |
 | Brainrender | [https://doi.org/10.1101/2020.10.21.348771 ](https://doi.org/10.1101/2020.10.21.348771%20) |
+| Cellfinder |  |
 
 ### A multimodal cell census and atlas of the mammalian primary motor cortex
 

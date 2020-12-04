@@ -6,7 +6,7 @@ description: How to segment your data
 
 ### Prerequisites
 
-Your data must have been registered to an atlas using [brainreg](../brainreg/introduction.md) \(or the brainreg-based registration within [cellfinder](../cellfinder/introduction.md).
+Your data must have been registered to an atlas using [brainreg](../brainreg/introduction.md) \(or the brainreg-based registration within [cellfinder](../cellfinder/cellfinder-introduction.md).
 
 Please follow the instructions for these packages, and ensure that the channel that you want to segment is downsampled \(e.g. using the `--downsample` flag in brainreg\).
 

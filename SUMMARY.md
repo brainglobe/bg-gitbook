@@ -24,7 +24,7 @@
 
 ## cellfinder
 
-* [Introduction](cellfinder/introduction.md)
+* [Introduction](cellfinder/cellfinder-introduction.md)
 * [Installation](cellfinder/installation/README.md)
   * [System requirements](cellfinder/installation/system-requirements.md)
   * [Cluster installation](cellfinder/installation/cluster-installation/README.md)
@@ -89,5 +89,5 @@
 
 ## Brainrender
 
-* [Untitled](brainrender/untitled.md)
+* [Brainrender](brainrender/untitled.md)
 

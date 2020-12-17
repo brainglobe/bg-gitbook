@@ -109,7 +109,8 @@ module load miniconda
 conda activate cellfinder
 
 echo "Running cellfinder"
-cellfinder -s $cell_file -b $background_file -o $output_dir --metadata metadata_file.yml --summarise
+# Just an example. See the user guide for the specific parameters
+cellfinder -s $cell_file -b $background_file -o $output_dir -v 5 2 2 --orientation psl
 ```
 
 You can then submit the batch job to the scheduler:

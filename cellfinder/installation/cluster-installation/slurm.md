@@ -6,6 +6,10 @@ description: Using cellfinder with the SLURM workload manager
 
 These instructions are based on [SWC SLURM cluster](https://www.sainsburywellcome.org/web/content/scientific-computing), and so most of the command syntax will likely vary. Specifically, you are unlikely to have modules configured in exactly the same way as us.
 
+{% hint style="info" %}
+If you are from the SWC, and using the SWC cluster, please see the specific instructions [here](../../using-cellfinder-at-the-swc.md).
+{% endhint %}
+
 ## Prepare the environment
 
 On our cluster, [modules](http://modules.sourceforge.net/) are only available on a compute node, so start an interactive job on a GPU node, and request a GPU for testing.

@@ -58,6 +58,7 @@
   * [Documentation](cellfinder/contributing/untitled.md)
 * [Release notes](cellfinder/release-notes.md)
 * [Citing cellfinder](cellfinder/citation.md)
+* [Using cellfinder at the SWC](cellfinder/using-cellfinder-at-the-swc.md)
 
 ## brainreg
 

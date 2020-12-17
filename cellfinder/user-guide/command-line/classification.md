@@ -5,7 +5,7 @@
 * `--trained-model` To use your own network \(not the one supplied with cellfinder\) specify the model file.
 * `--model-weights` To use pretrained model weights. Ensure that this model matches the `--network-depth` parameter.
 * `--network-depth`. Resnet depth \(based on [He et al. \(2015\)](https://arxiv.org/abs/1512.03385)\) **Default: 50**
-* `--batch-size` Batch size for classification. Can be adjusted depending on GPU memory. **Default: 32**
+* `--batch-size` Batch size for classification. Can be adjusted depending on GPU memory. This can often be increased on high-memory modern GPUS \(e.g. 128 works well on a Titan RTX\). **Default: 32**
 
 _**You shouldn't need to change these:**_
 

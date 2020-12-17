@@ -26,6 +26,10 @@ If you're using a compute cluster, there is likely to be a specific fast data st
 
 ### Cell classification or training the network is slow
 
+{% hint style="info" %}
+If you think that cellfinder is using the GPU properly, you can often increase the batch size used for training or inference \(`--batch-size`\). This will depend on your specific GPU, but for inference, batch sizes of up to 128 often work well on modern GPUs with &gt;8GB memory.
+{% endhint %}
+
 These steps may be slow if cellfinder is not properly using the GPU. If you have followed the instructions in [setting up your GPU](../installation/using-gpu.md), you may need to check that everything is configured properly:
 
 Open a terminal \(or Anaconda Prompt\):

@@ -10,5 +10,9 @@ Currently, instructions are provided for clusters with the [SLURM](https://slurm
 
 **See** [**Installation with SLURM**](slurm.md) 
 
+{% hint style="info" %}
+If you are from the SWC, and using the SWC cluster, please see the specific instructions [here](../../using-cellfinder-at-the-swc.md).
+{% endhint %}
+
 _If you need help installing cellfinder on a different type of compute cluster \(or even better if you've already managed\),_ _please get in touch._
 

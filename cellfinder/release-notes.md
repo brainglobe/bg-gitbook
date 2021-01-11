@@ -1,5 +1,9 @@
 # Release notes
 
+## Version 0.4.8 \(2021-01-11\)
+
+Updated required versions of tensorflow and numpy.
+
 ## Version 0.4.7 \(2020-11-25\)
 
 ### Added

@@ -2,7 +2,7 @@
 
 ## Version 0.4.8 \(2021-01-11\)
 
-Updated required versions of tensorflow and numpy.
+Updated required versions of tensorflow and numpy. cellfinder now requires CUDA 11.0.
 
 ## Version 0.4.7 \(2020-11-25\)
 

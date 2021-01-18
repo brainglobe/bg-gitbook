@@ -39,7 +39,8 @@ cellfinder uses [tensorflow](https://www.tensorflow.org/) which relies upon [CUD
 CUDA and cuDNN are not too hard to install, but sometimes other software on your machine relies on different versions. It is possible to switch between the two, and it is easier if you are [using conda](../using-conda.md) \(see [here](https://blog.kovalevskyi.com/multiple-version-of-cuda-libraries-on-the-same-machine-b9502d50ae77)\). However, **I recommend that you** [**use conda**](../using-conda.md) **and install CUDA 11 and cuDNN 8 via conda.** On linux you can run:
 
 ```text
-conda install cudatoolkit=11.0 cudnn -c nvidia
+conda install cudatoolkit=11.0
+conda install cudnn -c nvidia
 ```
 
 This method is easier, and also doesn't require any admin rights \(useful on a cluster or shared machine\).

@@ -92,3 +92,7 @@
 
 * [Brainrender](brainrender/untitled.md)
 
+---
+
+* [Governance model](governance-model.md)
+

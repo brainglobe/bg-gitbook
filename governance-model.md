@@ -44,6 +44,8 @@ The BrainGlobe GitHub organisation includes many so called "non-core" software p
 
 These repositories are collected together for discoverability, and to create an informal community of developers that work together to create interoperable tools. 
 
+**If you would like your tool to become part of BrainGlobe, please start a new topic on the** [**BrainGlobe admin GitHub Discussions page**](https://github.com/brainglobe/BrainGlobe/discussions)**.**
+
 Anyone can request that their tool becomes part of the BrainGlobe organisation, but the administration of these repositories will be the responsibility of the original developer\(s\), and not the BrainGlobe core developers. 
 
 **The developers of non-core repositories have no formal responsibilities, but we would encourage communication with other BrainGlobe developers, and efforts to ensure compatibility and interoperability with other BrainGlobe tools as far as possible.**

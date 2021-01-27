@@ -36,7 +36,8 @@ Create and activate new minimal conda environment
 Install CUDA and cuDNN
 
 ```bash
-  conda install cudatoolkit=10.1 cudnn
+conda install cudatoolkit=11.0
+conda install cudnn -c nvidia
 ```
 
 Install cellfinder

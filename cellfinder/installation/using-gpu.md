@@ -30,7 +30,7 @@ These instructions will vary somewhat between operating systems, and on how your
 
 ### Installing NVIDIA drivers
 
-The first thing you definitely need are the drivers for your GPU, which can be downloaded [here](https://www.nvidia.com/download/index.aspx?lang=en-us). Hopefully, these will have been installed when your machine was set up, but for GPU support in cellfinder, you will need version **418.x or greater**.
+The first thing you definitely need are the drivers for your GPU, which can be downloaded [here](https://www.nvidia.com/download/index.aspx?lang=en-us). Hopefully, these will have been installed when your machine was set up, but for GPU support in cellfinder, you will need version **450.x or greater**.
 
 ### Installing CUDA and cuDNN
 

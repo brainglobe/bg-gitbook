@@ -40,7 +40,7 @@ CUDA and cuDNN are not too hard to install, but sometimes other software on your
 
 ```text
 conda install cudatoolkit=11.0
-conda install cudnn -c nvidia
+conda install cudnn -c conda-forge
 ```
 
 This method is easier, and also doesn't require any admin rights \(useful on a cluster or shared machine\).

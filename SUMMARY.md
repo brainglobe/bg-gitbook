@@ -21,6 +21,7 @@
   * [utils](bg-atlasapi/api/utils.md)
 * [BrainGlobe's publications](bg-atlasapi/brainglobes-publications.md)
 * [Work using BrainGlobe's tools](bg-atlasapi/work-using-brainglobes-tools.md)
+* [GitHub repository](https://github.com/brainglobe/bg-atlasapi)
 
 ## cellfinder
 
@@ -58,7 +59,11 @@
   * [Documentation](cellfinder/contributing/untitled.md)
 * [Release notes](cellfinder/release-notes.md)
 * [Citing cellfinder](cellfinder/citation.md)
-* [Using cellfinder at the SWC](cellfinder/using-cellfinder-at-the-swc.md)
+* [Misc](cellfinder/misc/README.md)
+  * [Cell detection manuscript](https://www.biorxiv.org/content/10.1101/2020.10.21.348771v1)
+  * [Data underlying the paper](cellfinder/misc/data-underlying-the-paper.md)
+  * [Using cellfinder at the SWC](cellfinder/misc/using-cellfinder-at-the-swc.md)
+* [GitHub repository](https://github.com/brainglobe/cellfinder)
 
 ## brainreg
 
@@ -68,6 +73,7 @@
   * [Registration parameters](brainreg/user-guide/parameters.md)
 * [Tutorial](brainreg/tutorial.md)
 * [Visualisation](brainreg/visualisation.md)
+* [GitHub repository](https://github.com/brainglobe/brainreg)
 
 ## brainreg-segment
 
@@ -75,6 +81,7 @@
 * [User guide](brainreg-segment/user-guide.md)
 * [Applications](brainreg-segment/applications/README.md)
   * [Silicon probe tracking](brainreg-segment/applications/silicon-probe-tracking.md)
+* [GitHub repository](https://github.com/brainglobe/brainreg-segment)
 
 ## bg-space
 

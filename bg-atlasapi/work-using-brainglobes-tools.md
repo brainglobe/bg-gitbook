@@ -24,7 +24,7 @@ A brief collection of scientific articles and other works using tools from Brain
 
 | Uses | Link |
 | :--- | :--- |
-| cellfinder | [https://www.biorxiv.org/content/10.1101/2021.01.22.427789v2](https://www.biorxiv.org/content/10.1101/2021.01.22.427789v2) |
+| cellfinder | [https://doi.org/10.1101/2021.01.22.427789 ](https://doi.org/10.1101/2021.01.22.427789%20) |
 
 ### Dendritic domain-specific sampling of long-range axons shapes feedforward and feedback connectivity of L5 neurons
 

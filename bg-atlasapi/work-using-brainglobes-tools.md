@@ -32,5 +32,15 @@ A brief collection of scientific articles and other works using tools from Brain
 | :--- | :--- |
 | cellfinder | [ https://doi.org/10.1101/2021.01.31.429033 ](%20https://doi.org/10.1101/2021.01.31.429033%20) |
 
+### Constructing An Adult Orofacial Premotor Atlas In Allen Mouse CCF
 
+| Uses | Link |
+| :--- | :--- |
+| brainrender | [ https://doi.org/10.1101/2021.01.31.429033 ](https://doi.org/10.1101/2021.02.18.431923%20) |
+
+### Analysis of segmentation ontology reveals the similarities and differences in connectivity onto L2/3 neurons in mouse V1
+
+| Uses | Link |
+| :--- | :--- |
+| cellfinder | [ https://doi.org/10.1101/2021.01.31.429033 ](https://doi.org/10.1038/s41598-021-82353-7) |
 

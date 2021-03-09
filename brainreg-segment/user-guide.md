@@ -12,7 +12,7 @@ Please follow the instructions for these packages, and ensure that the channel t
 
 ## Usage
 
-To load the software, just type `brainreg_segment` into your command window.
+To load the software, just type `brainreg-segment` into your command window.
 
 A [napari](https://github.com/napari/napari) viewer will then open, with some options for loading data:
 

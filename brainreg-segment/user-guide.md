@@ -12,9 +12,9 @@ Please follow the instructions for these packages, and ensure that the channel t
 
 ## Usage
 
-To load the software, just type `brainreg-segment` into your command window.
+To load the software, firstly open napari \(typically by typing `napari` into your command window\). You can then load `brainreg-segment` by navigating to `Plugins` -&gt; `Add Dock Widget` and selecting `brainreg-segment`.
 
-A [napari](https://github.com/napari/napari) viewer will then open, with some options for loading data:
+The plugin will then open, with some options for loading data:
 
 ![brainreg interface](../.gitbook/assets/brainreg_segment.png)
 

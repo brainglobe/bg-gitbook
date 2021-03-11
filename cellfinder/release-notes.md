@@ -1,5 +1,9 @@
 # Release notes
 
+## Version 0.4.11 \(2021-01-11\)
+
+Core cell detection computation moved to the [cellfinder-core](https://github.com/brainglobe/cellfinder-core) package. 
+
 ## Version 0.4.8 \(2021-01-11\)
 
 Updated required versions of tensorflow and numpy. cellfinder now requires CUDA 11.0.

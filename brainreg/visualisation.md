@@ -35,7 +35,5 @@ This is typically only used in other software, but you can enable it yourself:
 * Open napari
 * Navigate to `Plugins` -&gt; `Plugin Call Order`
 * In the `Plugin Sorter` window, select `napari_get_reader` from the `select hook...` dropdown box
-* Drag `brainreg_standard` \(the atlas space viewer plugin\) above `brainreg` \(the normal plugin\) to ensure that the atlas space plugin is used preferentially.
-
-![Visualising your data in atlas space](https://raw.githubusercontent.com/brainglobe/napari-brainreg/master/resources/atlas_space.gif)
+* Drag `brainreg_read_dir_standard_space` \(the atlas space viewer plugin\) above `brainreg_read_dir` \(the normal plugin\) to ensure that the atlas space plugin is used preferentially.
 

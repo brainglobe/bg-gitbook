@@ -10,7 +10,7 @@ description: 'Messages that come up, and how to fix them.'
 OSError: [Errno 24] Too many open files
 ```
 
-This is likely because your default limits are set too low \(although this should probably be prevented from happening at all see [here](https://github.com/adamltyson/cellfinder/issues/8)\). To fix this, follow the instructions [here](https://easyengine.io/tutorials/linux/increase-open-files-limit/). If for any reason you don't want to or can't change the system-wide limits, running `ulimit -n 60000` before running cellfinder should work. This setting will persist for the present shell session, but will have to repeated if you open a new terminal.
+This is likely because your default limits are set too low. To fix this, follow the instructions [here](https://easyengine.io/tutorials/linux/increase-open-files-limit/). If for any reason you don't want to or can't change the system-wide limits, running `ulimit -n 60000` before running cellfinder should work. This setting will persist for the present shell session, but will have to repeated if you open a new terminal.
 
 ### error: unrecognized arguments:
 

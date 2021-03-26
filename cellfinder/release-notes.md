@@ -1,6 +1,6 @@
 # Release notes
 
-## Version 0.4.11 \(2021-01-11\)
+## Version 0.4.11 \(2021-03-11\)
 
 Core cell detection computation moved to the [cellfinder-core](https://github.com/brainglobe/cellfinder-core) package. 
 

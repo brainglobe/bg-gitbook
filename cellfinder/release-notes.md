@@ -1,5 +1,9 @@
 # Release notes
 
+## Version 0.4.12 \(2021-04-19\)
+
+Fixed a bug where cellfinder would not continue after only cell detection \(no classification\). Thanks to Nicole Vissers \(SWC\) for spotting this! 
+
 ## Version 0.4.11 \(2021-03-11\)
 
 Core cell detection computation moved to the [cellfinder-core](https://github.com/brainglobe/cellfinder-core) package. 

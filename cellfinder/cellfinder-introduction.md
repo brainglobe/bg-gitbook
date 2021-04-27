@@ -2,6 +2,10 @@
 
 cellfinder is software from the [Margrie Lab](https://www.sainsburywellcome.org/web/groups/margrie-lab) at the [Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/web/) for automated 3D cell detection and registration of whole-brain images \(e.g. serial two-photon or lightsheet imaging\).
 
+{% hint style="info" %}
+The underlying cell detection algorithm is available for use \(e.g. for use with other types of data\) as a Python package \([cellfinder-core](../cellfinder-core/introduction.md)\) or as a [Napari plugin](../cellfinder-napari/introduction.md). 
+{% endhint %}
+
 ![Detected labelled cells, overlaid on a segmented coronal brain section](https://cellfinder.info/images/cells.png)
 
 cellfinder can:

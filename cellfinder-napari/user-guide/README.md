@@ -9,7 +9,7 @@ The cellfinder algorithm is in two stages. Firstly, cell candidates \(objects of
 
 * [Cell detection](cell-detection/)
 * [Training data generation](training-data-generation.md)
-* [Training the network](../../cellfinder/user-guide/training/)
+* [Training the network](training-the-network.md)
 
 {% hint style="info" %}
 To understand how cellfinder works, it may be useful to take a look at the [preprint](https://www.biorxiv.org/content/10.1101/2020.10.21.348771v2). 

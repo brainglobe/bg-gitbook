@@ -39,3 +39,15 @@ The plugin will then run \(this may take a while if you're analysing a large dat
 * **Detected** - these are the cell candidates classified as cells
 * **Rejected** \(hidden by default\) - these are the cell candidates classified as artefacts.
 
+{% hint style="info" %}
+It is likely that the classification will not perform well on new data, to improve this, see [Training data generation](../training-data-generation.md).
+{% endhint %}
+
+## Saving data
+
+The cell coordinates can be saved using any napari plugin \(e.g. to csv\). To save the cell coodinates in the cellfinder XML format:
+
+* Select the points layers \(e.g. **Detected** and **Rejected**\)
+* Click `File` -&gt; `Save Selected Layer(s)`
+* Save with `.xml` extension \(e.g. `cells.xml`\)
+

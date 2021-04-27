@@ -14,9 +14,6 @@ The algorithm that underlies the efficient cell detection in cellfinder is avail
 Eventually other tools in the BrainGlobe ecosystem \(e.g. [brainreg](../brainreg/introduction.md)\) will be developed as napari plugins to provide a full GUI for cell detection, atlas registration and downstream analysis.
 {% endhint %}
 
-  
-
-
 ![Visualising detected cells in the cellfinder napari plugin](../.gitbook/assets/napari-cellfinder.gif)
 
 ## Installation

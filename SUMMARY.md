@@ -76,7 +76,8 @@
 
 * [Introduction](cellfinder-napari/introduction.md)
 * [User guide](cellfinder-napari/user-guide/README.md)
-  * [Cell detection](cellfinder-napari/user-guide/cell-detection.md)
+  * [Cell detection](cellfinder-napari/user-guide/cell-detection/README.md)
+    * [Parameters to set](cellfinder-napari/user-guide/cell-detection/parameters-to-set.md)
   * [Training data generation](cellfinder-napari/user-guide/training-data-generation.md)
   * [Training the network](cellfinder-napari/user-guide/training-the-network.md)
 * [Help forum](https://gitter.im/BrainGlobe/cellfinder)

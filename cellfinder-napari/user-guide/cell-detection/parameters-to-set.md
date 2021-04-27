@@ -1,22 +1,8 @@
 ---
-description: Detecting cells in napari
+description: Details on all the cellfinder cell detection parameters.
 ---
 
-# Cell detection
-
-Once napari, and the cellfinder plugin is installed, open napari, and load the plugin \(`Plugins` -&gt; `Cell detection`\).
-
-{% hint style="info" %}
-A widget should be then be docked into the side of your napari window. If this doesn't happen, check for any errors \(`Plugins` -&gt; `Plugin Errors`, then select the cellfinder plugin from the drop-down menu\). This error can be used to report problems on the GitHub page, or the help forum, see sidebar for links.
-{% endhint %}
-
-Then load your data \(e.g. using the `File`-&gt; menu, or by dragging and dropping data\). There must be two registered channels, a signal channel \(containing fluorescently labelled cells\), and a background channel \(containing only autofluroescence\). 
-
-{% hint style="info" %}
-There are many napari plugins for loading data. By default, single 3D tiffs, and directories of tiffs can be loaded.
-{% endhint %}
-
-There are then a number of parameters to set:
+# Parameters to set
 
 **Mandatory**
 
@@ -44,8 +30,6 @@ There are then a number of parameters to set:
   * Set the **Start plane** and **End plane**, to e.g. 1000 and 1100, to only process the 100 planes between 1000 and 1100.
 * To ensure that cellfinder doesn't use all the CPU cores on a machine, the **Number of free cpus** can be set. **Default: 2**
 * To increase the logging \(e.g. for troubleshooting\), tick the **Debug** box.
-
-\*\*\*\*
 
 {% hint style="info" %}
 The parameter values will be saved between sessions. The values can be reset by clicking the **Reset defaults** button.

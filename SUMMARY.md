@@ -63,8 +63,15 @@
   * [Cell detection manuscript](https://www.biorxiv.org/content/10.1101/2020.10.21.348771v1)
   * [Data underlying the paper](cellfinder/misc/data-underlying-the-paper.md)
   * [Using cellfinder at the SWC](cellfinder/misc/using-cellfinder-at-the-swc.md)
-* [Napari plugin](cellfinder/napari-plugin.md)
 * [GitHub repository](https://github.com/brainglobe/cellfinder)
+
+## cellfinder-core
+
+* [Introduction](cellfinder-core/introduction.md)
+
+## cellfinder-napari
+
+* [Introduction](cellfinder-napari/introduction.md)
 
 ## brainreg
 

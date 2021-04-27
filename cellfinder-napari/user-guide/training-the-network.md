@@ -58,5 +58,5 @@ Parameter values will be saved between sessions. The values can be reset by clic
 
 Click the **Run** button. 
 
-The plugin will then run \(this may take a while if you have lots of training data, or you have set many epochs\). Trained models \(`.h5` files\) will be saved into your output directory. 
+The plugin will then run \(this may take a while if you have lots of training data, or you have set many epochs\). Trained models \(`.h5` files\) will be saved into your output directory, to be used for cell detection. 
 

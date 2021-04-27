@@ -73,6 +73,7 @@
 ## cellfinder-napari
 
 * [Introduction](cellfinder-napari/introduction.md)
+* [User guide](cellfinder-napari/user-guide.md)
 * [GitHub repository](https://github.com/brainglobe/cellfinder-napari)
 
 ## brainreg

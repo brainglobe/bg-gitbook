@@ -25,3 +25,7 @@ First [install napari](https://napari.org/#installation). You can then install t
 
 For analysis of larger images, please also ensure your GPU is set up properly \(see [Setting up your GPU](../cellfinder/installation/using-gpu.md)\).
 
+## Usage
+
+Please see the [User guide](user-guide.md).
+

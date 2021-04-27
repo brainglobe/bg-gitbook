@@ -8,7 +8,9 @@ description: >-
 
 cellfinder-core is a Python package implementing the core algorithm for efficient cell detection in large images. It's used by the main [cellfinder](../cellfinder/cellfinder-introduction.md) software and the [Napari plugin](../cellfinder-napari/introduction.md). 
 
-{% hint style="warning" %}
-Information to be added.
-{% endhint %}
+The package exists on it's own to allow developers to implement the algorithm in their own software, e.g. to analyse different types of data \(not catered to by the main cellfinder package\).
+
+For now, no API documentation exists, please see the main cellfinder documentation for an explanation of some of the parameters. Alternatively, raise an issue on the [GitHub repository,](https://github.com/brainglobe/cellfinder-core) or ask a question on the [forum](https://gitter.im/BrainGlobe/cellfinder). 
+
+
 

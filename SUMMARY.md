@@ -73,7 +73,10 @@
 ## cellfinder-napari
 
 * [Introduction](cellfinder-napari/introduction.md)
-* [User guide](cellfinder-napari/user-guide.md)
+* [User guide](cellfinder-napari/user-guide/README.md)
+  * [Cell detection](cellfinder-napari/user-guide/cell-detection.md)
+  * [Training data generation](cellfinder-napari/user-guide/training-data-generation.md)
+  * [Training the network](cellfinder-napari/user-guide/training-the-network.md)
 * [GitHub repository](https://github.com/brainglobe/cellfinder-napari)
 
 ## brainreg

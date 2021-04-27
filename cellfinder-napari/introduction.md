@@ -24,5 +24,5 @@ For analysis of larger images, please also ensure your GPU is set up properly \(
 
 ## Usage
 
-Please see the [User guide](user-guide.md).
+Please see the [User guide](user-guide/).
 

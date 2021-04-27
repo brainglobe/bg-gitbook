@@ -68,10 +68,12 @@
 ## cellfinder-core
 
 * [Introduction](cellfinder-core/introduction.md)
+* [GitHub repository](https://github.com/brainglobe/cellfinder-core)
 
 ## cellfinder-napari
 
 * [Introduction](cellfinder-napari/introduction.md)
+* [GitHub repository](https://github.com/brainglobe/cellfinder-napari)
 
 ## brainreg
 

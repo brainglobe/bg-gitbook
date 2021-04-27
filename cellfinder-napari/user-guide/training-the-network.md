@@ -6,6 +6,10 @@ description: Retraining the network for new data
 
 Once napari, and the cellfinder plugin is installed, open napari, and load the plugin \(`Plugins` -&gt; Train network\).
 
+{% hint style="info" %}
+Make sure your GPU is set up to speed up the training. See [Setting up your GPU](../../cellfinder/installation/using-gpu.md).
+{% endhint %}
+
 ## Set parameters
 
 #### **Mandatory**

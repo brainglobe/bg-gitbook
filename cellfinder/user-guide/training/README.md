@@ -92,11 +92,11 @@ cellfinder_train -y yaml_1.yml  yaml_2.yml -o /path/to/output/directory/
 
   \(18, 34, 50, 101 or 152\). In theory, a deeper network should classify better,
 
-  at the expense of a larger model, and longer training time. Default: 50
+  at the expense of a larger model, and longer training time. **Default: 50**
 
 * `--batch-size` Batch size for training \(how many cell candidates to process at once\). Default: 16
-* `--epochs` How many times to use each sample for training. Default: 1000
-* `--test-fraction` What fraction of data to keep for validation. Default: 0.1
+* `--epochs` How many times to use each sample for training. **Default: 1000**
+* `--test-fraction` What fraction of data to keep for validation. **Default: 0.1**
 * `--learning-rate` Learning rate for training the model
 * `--no-augment` Do not use data augmentation
 * `--save-weights` Only store the model weights, and not the full model. Useful to save storage space.

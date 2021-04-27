@@ -19,3 +19,9 @@ Eventually other tools in the BrainGlobe ecosystem \(e.g. [brainreg](../brainreg
 
 ![Visualising detected cells in the cellfinder napari plugin](../.gitbook/assets/napari-cellfinder.gif)
 
+## Installation
+
+First [install napari](https://napari.org/#installation). You can then install the plugin from within napari \(`Plugins` -&gt; `Install/Uninstall Package(s)`, choosing `cellfinder-napari`\). 
+
+For analysis of larger images, please also ensure your GPU is set up properly \(see [Setting up your GPU](../cellfinder/installation/using-gpu.md)\).
+

@@ -120,4 +120,5 @@
 ---
 
 * [Governance model](governance-model.md)
+* [Hackathon](hackathon.md)
 

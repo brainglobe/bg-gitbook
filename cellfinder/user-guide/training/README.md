@@ -13,59 +13,14 @@ To generate training data, you will need:
 * The cellfinder output file, `cell_classification.xml` \(it's in the `points` subdirectory\).
 * The raw data used initially for cellfinder
 
-To generate training data for a single brain, use `cellfinder_curate`:
-
-```bash
-cellfinder_curate signal_images background_images cell_classification.xml
-```
-
-### Arguments
-
-* Signal images
-* Background images
-* `cell_classification.xml` file
-
-{% hint style="info" %}
-You must also specify the pixel sizes, see [Image definition](../../image-orientation.md#voxel-sizes)
-{% endhint %}
-
-**Optional**
-
-* `-o` or `--output` Output directory for curation results. If this is not given, then the directory containing `cell_classification.xml` will be used.
-* `--symbol` Marker symbol \(Default: `ring`\)
-* `--marker-size` Marker size\(Default: `15`\)
-* `--opacity` Marker opacity \(Default: `0.6`\)
-
-A [napari](https://napari.org/) window will then open, showing two tabs on the left hand side:
-
-* `Image` Selecting this allows you to change the contrast limits, to better visualise cells
-* `Cell candidates` This shows the cell candidates than be curated. Cell
-
-  candidates previously classified as cells are shown in yellow, and artifacts
-
-  in blue.
-
-By selecting the `Cell candidates` tab and then the cell selecting tool \(arrow at the top\), cell candidates can be selected \(either individually, or many by dragging the cursor\). There are then four keyboard commands:
-
-* `C` Confirm the classification result, and add this to the training set
-* `T` Toggle the classification result \(i.e. change the classification\),
-
-  and add this to the training set.
-
-* `Alt+Q` Save the results to an xml file
-* `Alt+E` Finish curating the training dataset. This will carry out three operations:
-  * Extract cubes around these points, into two directories \(`cells` and `non_cells`\).
-  * Generate a yaml file pointing to these files for use with `cellfinder_train` \(see below\)
-  * Close the viewer
-
-Once a `yaml` file has been generated, you can proceed to training. However, it is likely useful to generate `yaml` files from additional datasets.
+To generate training data for a single brain, use the [napari plugin](../../../cellfinder-napari/user-guide/training-data-generation.md).
 
 ## Start training
 
-You can then use these yaml files for training
+You can then use these yaml files for training, either using the [napari plugin](../../../cellfinder-napari/user-guide/training-the-network.md), or the following command-line tool. 
 
 {% hint style="warning" %}
-_If you have any yaml files from previous versions of cellfinder, they will continue to work, but are not documented here. Just use them as you would the files from`cellfinder_curate`_
+_If you have any yaml files from previous versions of cellfinder, they will continue to work, but are not documented here. Just use them as you would the files from the napari plugin._ 
 {% endhint %}
 
 {% hint style="info" %}

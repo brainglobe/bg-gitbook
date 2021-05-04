@@ -1,5 +1,15 @@
 # Release notes
 
+## Version 0.4.13 \(2021-05-04\)
+
+### Main updates
+
+The cell detection algorithm is now also implemented as a [napari plugin](../cellfinder-napari/introduction.md). This is also the preferred method for generating training data. 
+
+### Fixed
+
+Fixed a bug where cellfinder crashes at the analysis step if no cells are detected in that channel.
+
 ## Version 0.4.12 \(2021-04-19\)
 
 Fixed a bug where cellfinder would not continue after only cell detection \(no classification\). Thanks to Nicole Vissers \(SWC\) for spotting this! 

@@ -1,5 +1,9 @@
 # Release notes
 
+## Version 0.4.15 \(2021-05-05\)
+
+Fixed a bug where the analysis step may not run.
+
 ## Version 0.4.13 \(2021-05-04\)
 
 ### Main updates

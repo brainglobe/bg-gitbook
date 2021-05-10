@@ -12,7 +12,7 @@ brainreg-segment comes bundled with brainreg, so see the [brainreg installation 
 
 ### Usage
 
-See [User guide](user-guide.md).
+See [User guide](user-guide/).
 
 ### Standalone installation
 

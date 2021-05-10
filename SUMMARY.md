@@ -94,7 +94,9 @@
 ## brainreg-segment
 
 * [Introduction](brainreg-segment/introduction.md)
-* [User guide](brainreg-segment/user-guide.md)
+* [User guide](brainreg-segment/user-guide/README.md)
+  * [Segmenting 1D tracks](brainreg-segment/user-guide/segmenting-1d-tracks.md)
+  * [Segmenting 3D structures](brainreg-segment/user-guide/segmenting-3d-structures.md)
 * [Applications](brainreg-segment/applications/README.md)
   * [Silicon probe tracking](brainreg-segment/applications/silicon-probe-tracking.md)
 * [GitHub repository](https://github.com/brainglobe/brainreg-segment)

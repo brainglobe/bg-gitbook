@@ -40,7 +40,7 @@ You can adjust the view of your image, by selecting its "layer" in the sidebar, 
 
 The buttons directly below the layers can be used to rotate the data, reset the view and view in 3D.
 
-For information on how to segement specific types of structure, see [Segmenting 1D tracks](segmenting-1d-tracks.md) and [Segmenting 3D structures](segmenting-3d-structures.md).
+For information on how to segement specific types of structure, see [Segmenting 1D tracks](segmenting-1d-tracks.md) and [Segmenting 2/3D structures](segmenting-3d-structures.md).
 
 ### 
 

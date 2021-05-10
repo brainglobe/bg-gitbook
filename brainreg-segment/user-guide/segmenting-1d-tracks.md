@@ -2,11 +2,11 @@
 
 To segment a 1D track, such as a fibre track, or a silicone probe track, select the `Track tracing` button in the `Segmentation panel`.
 
-![Segmenting a 1D track](../../.gitbook/assets/track_seg.png)
-
 {% hint style="info" %}
 For more information about how to process silicon probe tracks, please see [Silicon probe tracking](../applications/silicon-probe-tracking.md).
 {% endhint %}
+
+![Segmenting a 1D track](../../.gitbook/assets/track_seg%20%281%29.png)
 
 Then:
 

@@ -2,7 +2,7 @@
 
 To segment a 3D \(or 2D\) structure, such as an injection site, select the `Region Segmentation` button in the `Segmentation panel`.
 
-![Segmenting a 3D structure](../../.gitbook/assets/region_seg.png)
+![Segmenting a 3D structure](../../.gitbook/assets/region_seg%20%281%29.png)
 
 Then:
 

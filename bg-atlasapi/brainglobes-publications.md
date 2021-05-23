@@ -28,5 +28,9 @@ description: Publications describing software from the BrainGlobe Suite
 
 ![](../.gitbook/assets/image.png)
 
+### Tools for accurate post hoc determination of marker location within whole-brain microscopy images
 
+**Link:** [https://doi.org/10.1101/2021.05.21.445133](https://doi.org/10.1101/2021.05.21.445133)
+
+![](../.gitbook/assets/brainreg_preprint.png)
 

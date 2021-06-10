@@ -29,15 +29,14 @@ module load miniconda
 Create and activate new minimal conda environment
 
 ```bash
-  conda create --name cellfinder python=3.8
+  conda create --name cellfinder python=3.9
   conda activate cellfinder
 ```
 
 Install CUDA and cuDNN
 
 ```bash
-conda install cudatoolkit=11.0
-conda install cudnn -c nvidia
+conda install -c conda-forge cudnn cudatoolkit
 ```
 
 Install cellfinder

@@ -59,14 +59,14 @@ The `(base)` is the bit that tells you that conda is set up
 Open a terminal \(or Anaconda Prompt\) and type:
 
 ```bash
-conda create --name ENV_NAME python=3.8
+conda create --name ENV_NAME python=3.9
 ```
 
 This will:
 
 * Create a new conda environment \(a kind of walled-off area on your computer that shouldn't affect other parts\)
 * Call it something so you can reference it later \(replace `ENV_NAME` with something useful\)
-* Install python version 3.8 into it. 
+* Install python version 3.9 into it. 
 
 
 

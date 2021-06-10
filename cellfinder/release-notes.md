@@ -1,5 +1,15 @@
 # Release notes
 
+## Version 0.4.16 \(2021-06-10\)
+
+### Main updates
+
+Added data export to [abc4d](https://github.com/valeriabonapersona/abc4d).
+
+### Fixed
+
+Pinned to latest version of cellfinder-core to prevent issues when upgrading. 
+
 ## Version 0.4.15 \(2021-05-05\)
 
 Fixed a bug where the analysis step may not run.

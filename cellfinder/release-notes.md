@@ -1,5 +1,12 @@
 # Release notes
 
+## Version 0.4.17 \(2021-06-10\)
+
+### Main updates
+
+* Now supports Python 3.9
+* Requires CUDA 11.2 and cuDNN 8.1
+
 ## Version 0.4.16 \(2021-06-10\)
 
 ### Main updates

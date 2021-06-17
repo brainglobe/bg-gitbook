@@ -24,9 +24,9 @@ description: Publications describing software from the BrainGlobe Suite
 
 ### A deep learning algorithm for 3D cell detection in whole mouse brain image datasets
 
-**link:** [https://doi.org/10.1101/2020.10.21.348771](https://doi.org/10.1101/2020.10.21.348771)
+**link:** [https://doi.org/10.1371/journal.pcbi.1009074](https://doi.org/10.1371/journal.pcbi.1009074)
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/screenshot-from-2021-06-17-10-14-43.png)
 
 ### Tools for accurate post hoc determination of marker location within whole-brain microscopy images
 

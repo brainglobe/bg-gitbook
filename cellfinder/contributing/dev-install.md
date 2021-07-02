@@ -20,7 +20,7 @@ cd cellfinder
 Add the cellfinder repository as the upstream
 
 ```text
-git remote add upstream https://github.com/SainsburyWellcomeCentre/cellfinder
+git remote add upstream https://github.com/brainglobe/cellfinder
 ```
 
 Install an editable, development version of `cellfinder`

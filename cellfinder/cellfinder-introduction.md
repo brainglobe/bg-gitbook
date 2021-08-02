@@ -6,7 +6,7 @@ cellfinder is software from the [Margrie Lab](https://www.sainsburywellcome.org/
 The underlying cell detection algorithm is available for use \(e.g. for use with other types of data\) as a Python package \([cellfinder-core](../cellfinder-core/introduction.md)\) or as a [Napari plugin](../cellfinder-napari/introduction.md). 
 {% endhint %}
 
-![Detected labelled cells, overlaid on a segmented coronal brain section](https://cellfinder.info/images/cells.png)
+![Detected labelled cells, overlaid on a segmented coronal brain section](../.gitbook/assets/cells.png)
 
 cellfinder can:
 

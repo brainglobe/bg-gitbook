@@ -32,3 +32,20 @@ Make sure that the image layer you are registering is not selected in the list o
 
 These parameters are the same as the brainreg command-line interface. For more details on these, see the documentation [here](https://docs.brainglobe.info/brainreg/user-guide/parameters).
 
+## Running brainreg
+
+You can then click `Run`, and the registration will start. Lots of stuff will get printed to the console as brainreg runs, and when it's done \(it should only take a minute or so\), you will see something like:
+
+```text
+INFO - MainProcess cli.py:230 - Finished. Total time taken: 0:00:29.15
+```
+
+This means that the registration is complete, but you should see the results appear in the napari window.
+
+Once the registration is complete, some new image layers will appear:
+
+* Atlas annotations - this the annotations image from the atlas \(where each brain region has a unique value\) warped to the data
+* Boundary image - this is a binary image, showing the boundaries between atlas regions.
+
+These files are not the only ones created, they will all be saved in the output directory. These can be loaded into napari at any time, see the [main visualisation page](https://docs.brainglobe.info/brainreg/visualisation).
+

@@ -44,7 +44,7 @@ In the plugin, set all the necessary parameters:
 
 Make sure the image layer is deselected on the left hand side, and then you should see something like this \(N.B. the visualised plane and the contrast of the brain has been adjusted\):
 
-
+![](../.gitbook/assets/screenshot-from-2021-08-04-14-48-40.png)
 
 You can then click `Run`, and the registration will start. Lots of stuff will get printed to the console as brainreg runs, and when it's done \(it should only take a minute or so\), you will see something like:
 

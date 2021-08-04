@@ -91,6 +91,11 @@
 * [Visualisation](brainreg/visualisation.md)
 * [GitHub repository](https://github.com/brainglobe/brainreg)
 
+## BRAINREG-NAPARI
+
+* [Introduction](brainreg-napari/introduction.md)
+* [User guide](brainreg-napari/user-guide.md)
+
 ## brainreg-segment
 
 * [Introduction](brainreg-segment/introduction.md)

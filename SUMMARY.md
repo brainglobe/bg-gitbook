@@ -95,6 +95,7 @@
 
 * [Introduction](brainreg-napari/introduction.md)
 * [User guide](brainreg-napari/user-guide.md)
+* [Tutorial](brainreg-napari/tutorial.md)
 
 ## brainreg-segment
 
@@ -126,4 +127,5 @@
 
 * [Governance model](governance-model.md)
 * [Hackathon](hackathon.md)
+* [Github repository](https://github.com/brainglobe/brainreg-napari)
 

@@ -22,5 +22,5 @@ N.B. brainreg is only fully supported on Windows and Linux \(i.e. not macOS\)
 
 ## Usage <a id="usage"></a>
 
-Please see the [User guide](user-guide.md).
+Please see the [User guide](user-guide.md), and the [Tutorial](tutorial.md).
 

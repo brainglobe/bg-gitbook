@@ -20,8 +20,6 @@ First [install napari](https://napari.org/#installation). You can then install t
 N.B. brainreg is only fully supported on Windows and Linux \(i.e. not macOS\)
 {% endhint %}
 
-
-
 ## Usage <a id="usage"></a>
 
 Please see the [User guide](user-guide.md).

@@ -34,13 +34,13 @@ To run brainreg, we firstly need to load the data, by dragging and dropping the 
 
 In the plugin, set all the necessary parameters:
 
-* `img layer` - Set this to the `test_brain` image layer
-* `Atlas` key - Set this to `allen_mouse_50um`
-* `data orientation` - Set this to `psl`
+* `Image layer` - Set this to the `test_brain` image layer
+* `Atlas` - Set this to `allen_mouse_50um`
+* `Data orientation` - Set this to `psl`
 * `Voxel size (z)` - Set to 50
 * `Voxel size (x)` - Set to 40
 * `Voxel size (y)` - Set to 40
-* `Registration output folder` - Click `Choose directory`, and create a new directory in the same directory as `test_brain` called `brainreg_output`
+* `Output directory` - Click `Choose directory`, and create a new directory in the same directory as `test_brain` called `brainreg_output`
 
 Make sure the image layer is deselected on the left hand side, and then you should see something like this \(N.B. the visualised plane and the contrast of the brain has been adjusted\):
 

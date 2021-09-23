@@ -56,7 +56,10 @@ There exists a group of developers, separate to the core developers that exists 
 
 * [Lugi Petrucco](https://github.com/vigji)
 * [Federico Claudi](https://github.com/FedeClaudi)
-* [Adam Tyson](https://github.com/adamltyson)   
+* [Adam Tyson](https://github.com/adamltyson) 
+* Troy Margrie
+* Tiago Branco
+* Ruben Portugues
 
 **The steering committee are expected to be core developers, and additionally discuss and vote upon the long-term direction of the project.**
 

@@ -61,7 +61,7 @@ There exists a group of developers, separate to the core developers that exists 
 * Tiago Branco
 * Ruben Portugues
 
-**The steering committee are expected to be core developers, and additionally discuss and vote upon the long-term direction of the project.**
+**The steering committee are usually expected to be core developers, and additionally discuss and vote upon the long-term direction of the project.**
 
 \*\*\*\*
 

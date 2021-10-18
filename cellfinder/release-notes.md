@@ -1,5 +1,10 @@
 # Release notes
 
+
+## Version 0.4.19 \(2021-10-15\)
+
+* Figure generation bug fix
+
 ## Version 0.4.17 \(2021-06-10\)
 
 ### Main updates

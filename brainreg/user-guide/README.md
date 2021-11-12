@@ -24,7 +24,7 @@ If you have any spaces in your file-path, please enclose it in quotation marks, 
 
 ### Mandatory
 
-* Path to the directory of the images. \(Can also be a text file pointing to the files\)
+* Path to the directory of the images. (Can also be a text file pointing to the files)
 * Output directory for all intermediate and final results
 
 {% hint style="warning" %}
@@ -40,10 +40,11 @@ You must also specify the orientation and voxel size of your data, see [Image de
 
 * `--n-free-cpus` The number of CPU cores on the machine to leave unused by the program to spare resources.
 * `--debug` Debug mode. Will increase verbosity of logging and save all intermediate files for diagnosis of software issues.
+* `--save-original-orientation` Option to save the registered atlas with the same orientation as the input data.
 
 ### Atlas
 
-By default, brainreg will use the 25um version of the [Allen Mouse Brain Atlas](https://mouse.brain-map.org/). To use another atlas \(e.g. for another species, or another resolution\), you must use the `--atlas` flag, followed by the string describing the atlas, e.g.:
+By default, brainreg will use the 25um version of the [Allen Mouse Brain Atlas](https://mouse.brain-map.org). To use another atlas (e.g. for another species, or another resolution), you must use the `--atlas` flag, followed by the string describing the atlas, e.g.:
 
 ```bash
 --atlas allen_mouse_50um
@@ -60,4 +61,3 @@ To change the registration algorithm used, use the `--backend` flag. The default
 ### Registration options
 
 To change how the actual registration performs, see [Registration parameters](parameters.md)
-

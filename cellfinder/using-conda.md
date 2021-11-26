@@ -9,30 +9,30 @@ description: Organising your Python environments with conda
 Conda is a package and environment management system that allows you to:
 
 * Install the correct version of Python to run your software
-* Install software without admin rights \(useful for shared machines and compute clusters\).
-* Install software without affecting anyone elses software installation \(e.g. on a shared machine\).
+* Install software without admin rights (useful for shared machines and compute clusters).
+* Install software without affecting anyone elses software installation (e.g. on a shared machine).
 * Install software without potentially messing up any important software on your machine.
-* Install multiple \(potentially conflicting\) versions of software at the same time, and allow you to switch between the two. This is very useful if you want to keep using a specific version of software for one experiment, but try out some new features of the latest release for another.
+* Install multiple (potentially conflicting) versions of software at the same time, and allow you to switch between the two. This is very useful if you want to keep using a specific version of software for one experiment, but try out some new features of the latest release for another.
 
 {% hint style="info" %}
 **You don't have to use conda, but it will make your life much easier, and it will make it much easier for me to provide help.**
 {% endhint %}
 
-\(If you know what you're doing with virtual environments, feel free to ignore this, but conda does make [CUDA and cuDNN installation easier](setting-up-your-gpu.md#installing-cuda-and-cudnn)\).
+(If you know what you're doing with virtual environments, feel free to ignore this, but conda does make [CUDA and cuDNN installation easier](https://app.gitbook.com/s/-MBiaoM-mTezn-t\_Tgpy/cellfinder/setting-up-your-gpu.md#installing-cuda-and-cudnn)).
 
 ## Installation
 
-**N.B. If you already have** [**Anaconda**](https://www.anaconda.com/) **or** [**miniconda**](https://docs.conda.io/en/latest/miniconda.html) **you can skip this section.**
+**N.B. If you already have** [**Anaconda**](https://www.anaconda.com) **or** [**miniconda**](https://docs.conda.io/en/latest/miniconda.html) **you can skip this section.**
 
 ### Download miniconda
 
 Download the correct version of miniconda from [here](https://docs.conda.io/en/latest/miniconda.html). You should download:
 
-* The correct version for your operating system \(Linux/Windows/macOS etc.\)
-* The **Python 3.x** version \(i.e. not the Python 2.7 version\)
-* The 64-bit version \(in the unlikely event that you have a 32 bit machine, cellfinder probably won't work anyway\).
+* The correct version for your operating system (Linux/Windows/macOS etc.)
+* The **Python 3.x** version (i.e. not the Python 2.7 version)
+* The 64-bit version (in the unlikely event that you have a 32 bit machine, cellfinder probably won't work anyway).
 
-You can download [Anaconda](https://www.anaconda.com/) instead, but we recommend miniconda.
+You can download [Anaconda](https://www.anaconda.com) instead, but we recommend miniconda.
 
 ### Install miniconda
 
@@ -56,7 +56,7 @@ The `(base)` is the bit that tells you that conda is set up
 
 ### Create the environment
 
-Open a terminal \(or Anaconda Prompt\) and type:
+Open a terminal (or Anaconda Prompt) and type:
 
 ```bash
 conda create --name ENV_NAME python=3.9
@@ -64,9 +64,9 @@ conda create --name ENV_NAME python=3.9
 
 This will:
 
-* Create a new conda environment \(a kind of walled-off area on your computer that shouldn't affect other parts\)
-* Call it something so you can reference it later \(replace `ENV_NAME` with something useful\)
-* Install python version 3.9 into it. 
+* Create a new conda environment (a kind of walled-off area on your computer that shouldn't affect other parts)
+* Call it something so you can reference it later (replace `ENV_NAME` with something useful)
+* Install python version 3.9 into it.&#x20;
 
 
 
@@ -90,7 +90,6 @@ Your prompt should change to show the change from `(base)` to `(ENV_ANME)`:
 
 ## Further details
 
-The reason why we use conda environments \(other methods other than conda are available\) is to have separate Python installations. This way anything we do in the cellfinder environment shouldn't affect any of the other environments.
+The reason why we use conda environments (other methods other than conda are available) is to have separate Python installations. This way anything we do in the cellfinder environment shouldn't affect any of the other environments.
 
-If anything goes wrong, and cellfinder stops working \(and can't be fixed\), you can simply make a new environment, and start again. If you have any troubles though, please get in touch.
-
+If anything goes wrong, and cellfinder stops working (and can't be fixed), you can simply make a new environment, and start again. If you have any troubles though, please get in touch.

@@ -6,7 +6,7 @@ description: Generating 3D renderings of your data
 
 ![3D brainrender visualisation of cellfinder results](../../.gitbook/assets/br.png)
 
-To generate 3D figures of your data in atlas space, you can use [brainrender](https://github.com/BrancoLab/brainrender). cellfinder automatically exports a file in a brainrender compatible format, which can be found at `test_brain/output/points/points.npy`. 
+To generate 3D figures of your data in atlas space, you can use [brainrender](https://github.com/BrancoLab/brainrender). cellfinder automatically exports a file in a brainrender compatible format, which can be found at `test_brain/output/points/points.npy`.&#x20;
 
 Once you've [installed brainrender](https://docs.brainrender.info/installation/installation), you can try something like this:
 
@@ -33,9 +33,8 @@ scene.add(cells)
 scene.render()
 ```
 
-Alternatively, you can use the [brainrender GUI](), and use the `Add cells` button to load the `points.npy` file. You can use `Show structures tree` to visualise brain areas.
+Alternatively, you can use the [brainrender GUI](broken-reference), and use the `Add cells` button to load the `points.npy` file. You can use `Show structures tree` to visualise brain areas.
 
 {% hint style="info" %}
-As the `points.h5`file contains the detected cells in atlas space, you can load cells from multiple brains \(e.g. in a different colour\).
+As the `points.h5`file contains the detected cells in atlas space, you can load cells from multiple brains (e.g. in a different colour).
 {% endhint %}
-

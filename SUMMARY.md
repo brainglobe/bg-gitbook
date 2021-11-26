@@ -11,14 +11,14 @@
   * [Using the files directly](bg-atlasapi/usage/using-the-files-directly.md)
 * [Contributing](bg-atlasapi/contributing.md)
 * [API documentation](bg-atlasapi/api/README.md)
-  * [bg\_atlas](bg-atlasapi/api/bg_atlas.md)
+  * [bg\_atlas](bg-atlasapi/api/bg\_atlas.md)
   * [cli](bg-atlasapi/api/cli.md)
-  * [list\_atlases](bg-atlasapi/api/list_atlases.md)
+  * [list\_atlases](bg-atlasapi/api/list\_atlases.md)
   * [config](bg-atlasapi/api/config.md)
   * [core](bg-atlasapi/api/core.md)
-  * [structure\_tree\_util](bg-atlasapi/api/structure_tree_util.md)
-  * [structure\_class](bg-atlasapi/api/structure_class.md)
-  * [update\_atlases](bg-atlasapi/api/update_atlases.md)
+  * [structure\_tree\_util](bg-atlasapi/api/structure\_tree\_util.md)
+  * [structure\_class](bg-atlasapi/api/structure\_class.md)
+  * [update\_atlases](bg-atlasapi/api/update\_atlases.md)
   * [utils](bg-atlasapi/api/utils.md)
 * [BrainGlobe's publications](bg-atlasapi/brainglobes-publications.md)
 * [Work using BrainGlobe's tools](bg-atlasapi/work-using-brainglobes-tools.md)
@@ -87,6 +87,7 @@
 * [Installation](brainreg/installation.md)
 * [User guide](brainreg/user-guide/README.md)
   * [Registration parameters](brainreg/user-guide/parameters.md)
+  * [Output files](brainreg/user-guide/output-files.md)
 * [Tutorial](brainreg/tutorial.md)
 * [Visualisation](brainreg/visualisation.md)
 * [GitHub repository](https://github.com/brainglobe/brainreg)
@@ -123,9 +124,8 @@
 
 * [Brainrender](brainrender/untitled.md)
 
----
+***
 
 * [Governance model](governance-model.md)
 * [Hackathon](hackathon.md)
 * [Github repository](https://github.com/brainglobe/brainreg-napari)
-

@@ -18,9 +18,9 @@ description: Publications describing software from the BrainGlobe Suite
 
 ![](../.gitbook/assets/screenshot-2020-12-04-at-12.49.57.png)
 
-### 
+###
 
-### 
+###
 
 ### A deep learning algorithm for 3D cell detection in whole mouse brain image datasets
 
@@ -32,5 +32,13 @@ description: Publications describing software from the BrainGlobe Suite
 
 **Link:** [https://doi.org/10.1101/2021.05.21.445133](https://doi.org/10.1101/2021.05.21.445133)
 
-![](../.gitbook/assets/brainreg_preprint.png)
+![](../.gitbook/assets/brainreg\_preprint.png)
 
+### aMAP is a validated pipeline for registration and segmentation of high-resolution mouse brain data
+
+**Link:** [https://doi.org/10.1038/ncomms11879](https://doi.org/10.1038/ncomms11879)
+
+\
+
+
+![](<../.gitbook/assets/Screenshot 2021-11-26 at 17.09.20.png>)

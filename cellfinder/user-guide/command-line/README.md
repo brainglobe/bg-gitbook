@@ -16,7 +16,7 @@ All options can be found by running `cellfinder -h`
 
 ### Mandatory
 
-* `-s` or `--signal-planes-paths` Path to the directory of the signal files. Can also be a text file pointing to the files. **There can be as many signal channels as you like, and each will be treated independently**. 
+* `-s` or `--signal-planes-paths` Path to the directory of the signal files. Can also be a text file pointing to the files. **There can be as many signal channels as you like, and each will be treated independently**.&#x20;
 * `-b` or `--background-planes-path` Path to the directory of the background files. Can also be a text file pointing to the files.  **This background channel will be used for all signal channels**
 * `-o` or `--output-dir` Output directory for all intermediate and final results
 
@@ -28,26 +28,26 @@ You must also specify the orientation and voxel size of your data, see [Image de
 
 **Only run parts of cellfinder**
 
-If for some reason you don't want some parts of cellfinder to run, you can use the following options. If a part of the pipeline is required by another part it will be run \(i.e. `--no-detection` won't do anything unless `--no-classification` is also used\). cellfinder will attempt to work out what parts of the pipeline have already been run \(in a given output directory\) and not run them again if appropriate.
+If for some reason you don't want some parts of cellfinder to run, you can use the following options. If a part of the pipeline is required by another part it will be run (i.e. `--no-detection` won't do anything unless `--no-classification` is also used). cellfinder will attempt to work out what parts of the pipeline have already been run (in a given output directory) and not run them again if appropriate.
 
-* `--no-registration` Do not run registration 
+* `--no-register` Do not run registration&#x20;
 * `--no-detection` Do not run cell candidate detection
 * `--no-classification` Do not run cell classification
 * `--no-analyse`Do not not analyse and export cell positions
-* `--no-figures` Do not create figures \(e.g. heatmap\)
+* `--no-figures` Do not create figures (e.g. heatmap)
 
 **Figures options**
 
 Figures cannot yet be customised much, but the current options are here:
 
 * `--heatmap-smoothing` Gaussian smoothing sigma, in um.
-* `--no-mask-figs` Don't mask the figures \(removing any areas outside the brain, from e.g. smoothing\)
+* `--no-mask-figs` Don't mask the figures (removing any areas outside the brain, from e.g. smoothing)
 
 **Performance, debugging and testing**
 
 * `--debug` Increase verbosity of statements printed to console and save all intermediate files.
 * `--n-free-cpus` The number of CPU cores on the machine to leave unused by the program to spare resources.
-* `--max-ram` Maximum amount of RAM to use \(in GB\) - **not currently fully implemented for all parts of cellfinder**
+* `--max-ram` Maximum amount of RAM to use (in GB) - **not currently fully implemented for all parts of cellfinder**
 
 Useful for testing or if you know your cells are only in a specific region
 
@@ -56,7 +56,7 @@ Useful for testing or if you know your cells are only in a specific region
 
 **Standard space options**
 
-* `--transform-all` Transform all cell positions \(including artifacts\).
+* `--transform-all` Transform all cell positions (including artifacts).
 
 ### Cell candidate detection options
 
@@ -73,4 +73,3 @@ To change how the actual registration performs, see [Registration parameters](..
 ### **Historical options**
 
 If you have used old versions of cellfinder, there may be some options you want to change in [Historical options](historical-options.md).
-

@@ -33,10 +33,10 @@ Create and activate new minimal conda environment
   conda activate cellfinder
 ```
 
-Install CUDA and cuDNN
+Install CUDA and cuDNN. CUDA 11.2 and cuDNN 8.1 are recommended 
 
 ```bash
-conda install -c conda-forge cudnn cudatoolkit
+conda install -c conda-forge cudnn=8.1 cudatoolkit=11.2
 ```
 
 Install cellfinder

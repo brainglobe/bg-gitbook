@@ -42,3 +42,11 @@ To run with GPU support, and mount the current working directory at `/data`**:**
 ```bash
 docker container run --mount type=bind,source=${PWD},target=/data --gpus all -it ghcr.io/brainglobe/cellfinder
 ```
+
+This will open up a bash prompt, and you can use cellfinder (or brainreg etc.) to analyse your data (mounted at `/data`) as normal, e.g.:
+
+```bash
+cellfinder -s /data/brain1/channel0 -b /data/brain1/channel1 -v 5 2 2 --orientation psl -o /data/analysis/brain1 --trained-model /data/models/retrained.h5
+```
+
+To leave the docker container when done, just `exit`.The data will be saved onto the host system, at your current working directory (you can mount different directories, or multiple directories, see the [docker documentation](https://docs.docker.com/storage/bind-mounts/)).

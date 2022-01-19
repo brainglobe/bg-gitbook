@@ -27,12 +27,6 @@
 ## cellfinder
 
 * [Introduction](cellfinder/cellfinder-introduction.md)
-* [Installation](cellfinder/installation/README.md)
-  * [System requirements](cellfinder/installation/system-requirements.md)
-  * [Cluster installation](cellfinder/installation/cluster-installation/README.md)
-    * [Installation with SLURM](cellfinder/installation/cluster-installation/slurm.md)
-  * [Downloading files](cellfinder/installation/downloading-files.md)
-  * [Setting up your GPU](cellfinder/installation/using-gpu.md)
 * [User guide](cellfinder/user-guide/README.md)
   * [Data requirements](cellfinder/user-guide/data-requirements.md)
   * [Command line interface](cellfinder/user-guide/command-line/README.md)
@@ -65,6 +59,13 @@
   * [Data underlying the paper](cellfinder/misc/data-underlying-the-paper.md)
   * [Using cellfinder at the SWC](cellfinder/misc/using-cellfinder-at-the-swc.md)
 * [GitHub repository](https://github.com/brainglobe/cellfinder)
+* [Installation](cellfinder/installation/README.md)
+  * [System requirements](cellfinder/installation/system-requirements.md)
+  * [Cluster installation](cellfinder/installation/cluster-installation/README.md)
+    * [Installation with SLURM](cellfinder/installation/cluster-installation/slurm.md)
+  * [Downloading files](cellfinder/installation/downloading-files.md)
+  * [Setting up your GPU](cellfinder/installation/using-gpu.md)
+  * [Installation with docker](cellfinder/installation/installation-with-docker.md)
 
 ## cellfinder-core
 

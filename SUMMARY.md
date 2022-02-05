@@ -10,6 +10,7 @@
   * [Command line interface](bg-atlasapi/usage/command-line-interface.md)
   * [Using the files directly](bg-atlasapi/usage/using-the-files-directly.md)
 * [Contributing](bg-atlasapi/contributing.md)
+* [Adding a new atlas](bg-atlasapi/adding-a-new-atlas.md)
 * [API documentation](bg-atlasapi/api/README.md)
   * [bg\_atlas](bg-atlasapi/api/bg\_atlas.md)
   * [cli](bg-atlasapi/api/cli.md)

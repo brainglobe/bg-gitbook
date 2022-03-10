@@ -6,9 +6,13 @@ description: How to work with the existing cellfinder developers
 
 ## Pull requests
 
-In all cases, please submit code to the main repository via a pull request. Upon approval, please merge via "Squash and Merge" on GitHub to maintain a clean commit history.
-
-Please submit pull requests as early as possible \(you can still push to the branch once submitted\) to allow discussion.
+In all cases, please submit code to the main repository via a pull request. The developers recommend, and adhere, to the following conventions:
+- please submit _draft_ pull requests as early as possible (you can still push to the branch once submitted) to allow discussion.
+- one approval of a PR (by a repo owner) is enough for it to be merged
+- unless someone approves the PR with optional comments, the PR is immediately merged by the approving reviewer.
+- please merge via "Squash and Merge" on GitHub to maintain a clean commit history.
+- if you don't mind who reviews the PR, you can ask for review from the [GH team](https://github.com/orgs/brainglobe/teams/ucl-rsdg) 
+- ask for a review from someone specific if you think they would be a particularly suited reviewer (possibly noting why they are suited on the PR description)
 
 ## Formatting
 

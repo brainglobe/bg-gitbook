@@ -12,13 +12,18 @@ Please submit pull requests as early as possible \(you can still push to the bra
 
 ## Formatting
 
-cellfinder uses [Black](https://github.com/python/black) and [Flake8](https://flake8.pycqa.org/en/latest/) to ensure a consistent code style. Please run `pre-commit install` prior to working on the code to ensure that these tests are run on each commit.
+`cellfinder` uses [Black](https://black.readthedocs.io/en/stable/), [Flake8](https://flake8.pycqa.org/en/latest/), [isort](https://pycqa.github.io/isort/) and [mypy](https://mypy.readthedocs.io/en/stable/) to ensure a consistent code style. Please run `pre-commit install` prior to working on the code to ensure that these tests are run on each commit.
 
 To check your code before committing, please run:
 
+- for staged files
 ```python
-black ./
-flake8
+pre-commit run
+```
+
+- for all files in the repository
+```python
+pre-commit run -a
 ```
 
 ## Testing

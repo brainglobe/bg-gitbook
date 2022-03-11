@@ -12,7 +12,7 @@ Please submit pull requests as early as possible \(you can still push to the bra
 
 ## Formatting
 
-`cellfinder` uses [Black](https://black.readthedocs.io/en/stable/), [Flake8](https://flake8.pycqa.org/en/latest/), [isort](https://pycqa.github.io/isort/) and [mypy](https://mypy.readthedocs.io/en/stable/) to ensure a consistent code style. Please run `pre-commit install` prior to working on the code to ensure that these tests are run on each commit.
+`cellfinder` uses [Black](https://black.readthedocs.io/en/stable/), [Flake8](https://flake8.pycqa.org/en/latest/), [isort](https://pycqa.github.io/isort/) and [mypy](https://mypy.readthedocs.io/en/stable/) to ensure a consistent code style. You may need to run `pre-commit install` prior to working on the code to ensure that these tests are run on each commit if you haven't [installed as `[dev]`](https://docs.brainglobe.info/cellfinder/contributing/dev-install).
 
 To check your code before committing, please run:
 

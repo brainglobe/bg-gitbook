@@ -33,10 +33,10 @@ Create and activate new minimal conda environment
   conda activate cellfinder
 ```
 
-Install CUDA and cuDNN
+Install CUDA and cuDNN. CUDA 11.2 and cuDNN 8.1 are recommended 
 
 ```bash
-conda install -c conda-forge cudnn cudatoolkit
+conda install -c conda-forge cudnn=8.1 cudatoolkit=11.2
 ```
 
 Install cellfinder
@@ -53,7 +53,7 @@ Check that tensorflow and CUDA are configured properly:
 
 ```python
 import tensorflow as tf
-tf.test.is_gpu_available()
+tf.config.list_physical_devices('GPU')
 ```
 
 If you see something like this, then all is well.
@@ -71,6 +71,29 @@ totalMemory: 23.62GiB freeMemory: 504.25MiB
 2019-06-26 10:51:35.251729: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/device:GPU:0 with 195 MB memory) -> physical GPU (device: 0, name: TITAN RTX, pci bus id: 0000:2d:00.0, compute capability: 7.5)
 True
 ```
+
+If you see something like this:
+
+```python
+2021-12-19 20:40:30.766514: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda/lib64
+```
+
+CUDA and cuDNN cannot be found as `LD_LIBRARY_PATH` does not include the libraries installed by `conda`. Exit python 
+
+Exit python
+
+```python
+exit()
+```
+
+Add the `lib` folder of your `conda` environement to the library path. 
+
+```bash
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/.conda/envs/cellfinder/lib/
+```
+
+Restart python and test tensorflow again as described above. If it the error is gone, all should be fine.
+
 
 Exit python
 

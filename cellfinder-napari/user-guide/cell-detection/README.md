@@ -6,7 +6,7 @@ description: Detecting cells in napari
 
 ## Loading data
 
-Once napari, and the cellfinder plugin is installed, open napari, and load the plugin (`Plugins` -> `Cell detection`).
+Once napari, and the cellfinder plugin is installed, open napari, and load the plugin (`Plugins` -> `cellfinder-napari` -> `Cell detection`).
 
 {% hint style="info" %}
 A widget should be then be docked into the side of your napari window. If this doesn't happen, check for any errors (`Plugins` -> `Plugin Errors`, then select the cellfinder plugin from the drop-down menu). This error can be used to report problems on the GitHub page, or the help forum, see sidebar for links.

@@ -17,3 +17,30 @@ determine the **minimum** set of supported package versions:
 
 In addition to this the last 24 months of other dependencies should also be
 supported.
+
+
+## Creating a development environment
+
+It is recommended to use conda to install a development environment for
+BrainGlobe projects. Once you have conda installed the following commands
+will create and activate a conda environment with the requirements needed
+for a development environment:
+
+```
+conda create -n brainglobe-dev -c conda-forge python=3.9 napari
+conda activate brainglobe-dev
+```
+
+This installs packages that often can't be installed via. pip, including
+`pyqt`. The specific version of Python is chosen to allow `tensorflow` to be
+installed on macOS arm64 machines.
+
+To install a specific BrainGlobe project for  development, clone the
+GitHub repository, and then run
+
+```
+pip install -e '.[dev]'
+```
+
+from inside the repository. This will install the package, it's dependencies,
+and it's development dependencies.

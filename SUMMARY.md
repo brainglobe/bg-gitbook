@@ -41,6 +41,7 @@
     * [Cell candidate detection](cellfinder/user-guide/command-line/candidate-detection.md)
     * [Cell candidate classification](cellfinder/user-guide/command-line/classification.md)
     * [Historical options](cellfinder/user-guide/command-line/historical-options.md)
+    * [Output files](cellfinder/user-guide/command-line/output-files.md)
   * [Training the network](cellfinder/user-guide/training/README.md)
     * [Using supplied training data](cellfinder/user-guide/training/using-supplied-data.md)
   * [Visualisation](cellfinder/user-guide/visualisation.md)

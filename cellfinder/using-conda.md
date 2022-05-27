@@ -22,7 +22,7 @@ Conda is a package and environment management system that allows you to:
 
 ## Installation
 
-**N.B. If you already have** [**Anaconda**](https://www.anaconda.com) **or** [**miniconda**](https://docs.conda.io/en/latest/miniconda.html) **you can skip this section.**
+**N.B. If you already have** [**Anaconda**](https://www.anaconda.com/) **or** [**miniconda**](https://docs.conda.io/en/latest/miniconda.html) **you can skip this section.**
 
 ### Download miniconda
 
@@ -32,7 +32,7 @@ Download the correct version of miniconda from [here](https://docs.conda.io/en/l
 * The **Python 3.x** version (i.e. not the Python 2.7 version)
 * The 64-bit version (in the unlikely event that you have a 32 bit machine, cellfinder probably won't work anyway).
 
-You can download [Anaconda](https://www.anaconda.com) instead, but we recommend miniconda.
+You can download [Anaconda](https://www.anaconda.com/) instead, but we recommend miniconda.
 
 ### Install miniconda
 

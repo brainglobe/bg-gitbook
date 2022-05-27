@@ -24,7 +24,7 @@ Anybody with an interest any part of the BrainGlobe project can contribute to th
 * Reviewing pull requests
 * Discussing the project in open issues, pull requests, or any other channel
 
-**These users may contribute in any way they see fit with no responsibilities other than to follow the code of conduct of the individual repository. **
+**These users may contribute in any way they see fit with no responsibilities other than to follow the code of conduct of the individual repository.**&#x20;
 
 ### Core developers
 
@@ -36,7 +36,7 @@ Core developers are a group of users who take responsibility for the development
 
 Any interested party can join the core developers, based on the informal criteria of "a substantial contribution to BrainGlobe core repositories". Election will require a simple vote of existing core developers.&#x20;
 
-**Core developers are expected to aim to contribute regularly to the code bases (e.g. comments, issues, pull requests), attend as many meetings as possible, and vote upon any major changes to the project. **
+**Core developers are expected to aim to contribute regularly to the code bases (e.g. comments, issues, pull requests), attend as many meetings as possible, and vote upon any major changes to the project.**&#x20;
 
 ### Non-core developers
 
@@ -44,7 +44,7 @@ The BrainGlobe GitHub organisation includes many so called "non-core" software p
 
 These repositories are collected together for discoverability, and to create an informal community of developers that work together to create interoperable tools.&#x20;
 
-**If you would like your tool to become part of BrainGlobe, please start a new topic on the **[**BrainGlobe admin GitHub Discussions page**](https://github.com/brainglobe/BrainGlobe/discussions)**.**
+**If you would like your tool to become part of BrainGlobe, please start a new topic on the** [**BrainGlobe admin GitHub Discussions page**](https://github.com/brainglobe/BrainGlobe/discussions)**.**
 
 Anyone can request that their tool becomes part of the BrainGlobe organisation, but the administration of these repositories will be the responsibility of the original developer(s), and not the BrainGlobe core developers.&#x20;
 

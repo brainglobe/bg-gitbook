@@ -6,7 +6,7 @@ description: Generating data to retrain the cellfinder classification network
 
 ## Loading data
 
-If you've just run the cell detection step, proceed to **Annotating data. **
+If you've just run the cell detection step, proceed to **Annotating data.**&#x20;
 
 Otherwise:
 

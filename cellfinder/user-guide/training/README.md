@@ -20,7 +20,7 @@ To generate training data for a single brain, use the [napari plugin](../../../c
 You can then use these yaml files for training, either using the [napari plugin](../../../cellfinder-napari/user-guide/training-the-network.md), or the following command-line tool.&#x20;
 
 {% hint style="warning" %}
-_If you have any yaml files from previous versions of cellfinder, they will continue to work, but are not documented here. Just use them as you would the files from the napari plugin. _
+_If you have any yaml files from previous versions of cellfinder, they will continue to work, but are not documented here. Just use them as you would the files from the napari plugin._&#x20;
 {% endhint %}
 
 {% hint style="info" %}

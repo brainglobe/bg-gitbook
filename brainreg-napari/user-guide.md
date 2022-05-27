@@ -13,7 +13,7 @@ To register your data, you will need a whole-brain image, i.e. not a part of a b
 Loading your data into napari will vary depending on the data type, but with most types, you should be able to drag and drop your data into the main napari window.&#x20;
 
 {% hint style="info" %}
-If you are having trouble loading your data into napari, first check the [napari hub](https://www.napari-hub.org) to see if there's a plugin to help. If that fails, go ahead and ask the nice people at the [image.sc](https://forum.image.sc/tag/napari) forum.
+If you are having trouble loading your data into napari, first check the [napari hub](https://www.napari-hub.org/) to see if there's a plugin to help. If that fails, go ahead and ask the nice people at the [image.sc](https://forum.image.sc/tag/napari) forum.
 {% endhint %}
 
 ## Starting the plugin

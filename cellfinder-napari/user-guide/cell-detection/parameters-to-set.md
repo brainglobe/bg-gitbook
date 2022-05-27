@@ -9,7 +9,7 @@ description: Details on all the cellfinder cell detection parameters.
 * **Signal image** - set this to the image layer containing the labelled cells
 * **Background image** - set this to the image layer without cells
 * **Voxel size (z)** - in microns, the plane-spacing (from one 2D section to the next)
-* **Voxel size (y) **- in microns, the voxel size in the vertical (top to bottom) dimension
+* **Voxel size (y)** - in microns, the voxel size in the vertical (top to bottom) dimension
 * **Voxel size (x)** - in microns, the voxel size in the horizontal (left to right) dimension
 
 **Optional**

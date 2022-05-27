@@ -26,7 +26,7 @@ To run brainreg, you need to know:
 * Where your data is (in this case, it's the path to the `test_brain` directory)
 * Where you want to save the output data (we'll just save it into a directory called `brainreg_output`in the same directory as the `test_brain`)
 * The pixel sizes of your data in microns (see [Image definition](../cellfinder/image-orientation.md) for details). In this case, our data is 40um per pixel in in the coronal plane and the spacing of the planes is 50um.
-* The orientation of your data. The software needs to know how you acquired your data (coronal, saggital etc.). For this cellfinder uses [bg-space](https://github.com/brainglobe/bg-space). Full details on how to enter your data orientation can be found [here](https://docs.brainglobe.info/brainreg/user-guide#input-data-orientation), but for this tutorial, the orientation is `psl`, which means that the data origin is the most **p**osterior, **s**uperior,** l**eft voxel. For more details see [Image definition](../cellfinder/image-orientation.md)
+* The orientation of your data. The software needs to know how you acquired your data (coronal, saggital etc.). For this cellfinder uses [bg-space](https://github.com/brainglobe/bg-space). Full details on how to enter your data orientation can be found [here](https://docs.brainglobe.info/brainreg/user-guide#input-data-orientation), but for this tutorial, the orientation is `psl`, which means that the data origin is the most **p**osterior, **s**uperior, **l**eft voxel. For more details see [Image definition](../cellfinder/image-orientation.md)
 * Which atlas you want to use (you can see which are available by running `brainglobe list`. In this case, we want to use a mouse atlas (as that's what our data is), and we'll use the 50um version of the [Allen Mouse Brain Atlas](https://mouse.brain-map.org/static/atlas).&#x20;
 
 {% hint style="warning" %}
@@ -51,7 +51,7 @@ This means that the registration is complete.
 
 ### Visualising the results
 
-brainreg comes with a plugin for [napari](https://napari.org) (see [Visualisation](visualisation.md)) for easy visualisation of the results.
+brainreg comes with a plugin for [napari](https://napari.org/) (see [Visualisation](visualisation.md)) for easy visualisation of the results.
 
 To view your data, run `napari` from the same terminal/command as you ran brainreg (or open a new one and activate your conda environment). You can then drag and drop the `brainreg_output` directory into napari, and see the results.
 

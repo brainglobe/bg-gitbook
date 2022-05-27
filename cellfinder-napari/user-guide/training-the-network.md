@@ -19,7 +19,7 @@ Make sure your GPU is set up to speed up the training. See [Setting up your GPU]
 
 #### **Optional**
 
-**Network **
+**Network**&#x20;
 
 * **Trained model** - Path to a trained model to continue training from
 * **Model weights** -  Path to existing model weights to continue training

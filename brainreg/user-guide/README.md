@@ -44,7 +44,7 @@ You must also specify the orientation and voxel size of your data, see [Image de
 
 ### Atlas
 
-By default, brainreg will use the 25um version of the [Allen Mouse Brain Atlas](https://mouse.brain-map.org). To use another atlas (e.g. for another species, or another resolution), you must use the `--atlas` flag, followed by the string describing the atlas, e.g.:
+By default, brainreg will use the 25um version of the [Allen Mouse Brain Atlas](https://mouse.brain-map.org/). To use another atlas (e.g. for another species, or another resolution), you must use the `--atlas` flag, followed by the string describing the atlas, e.g.:
 
 ```bash
 --atlas allen_mouse_50um

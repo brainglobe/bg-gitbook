@@ -130,5 +130,4 @@
 ***
 
 * [Governance model](governance-model.md)
-* [Hackathon](hackathon.md)
 * [Github repository](https://github.com/brainglobe/brainreg-napari)

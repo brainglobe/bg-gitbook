@@ -1,7 +1,9 @@
 # Table of contents
 
 * [About](README.md)
-* [BrainGlobe help forum](https://forum.image.sc/tag/brainglobe)
+* [Help forum](https://forum.image.sc/tag/brainglobe)
+* [Contributing](https://github.com/brainglobe/.github/blob/main/CONTRIBUTING.md)
+* [Github organisation](https://github.com/brainglobe)
 
 ## bg-atlasapi
 
@@ -125,5 +127,3 @@
 ***
 
 * [Governance model](governance-model.md)
-* [Github repository](https://github.com/brainglobe/brainreg-napari)
-* [Contributing](https://github.com/brainglobe/.github/blob/main/CONTRIBUTING.md)

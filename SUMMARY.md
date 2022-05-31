@@ -9,7 +9,6 @@
 * [Usage](bg-atlasapi/usage/README.md)
   * [Command line interface](bg-atlasapi/usage/command-line-interface.md)
   * [Using the files directly](bg-atlasapi/usage/using-the-files-directly.md)
-* [Contributing](bg-atlasapi/contributing.md)
 * [Adding a new atlas](bg-atlasapi/adding-a-new-atlas.md)
 * [API documentation](bg-atlasapi/api/README.md)
   * [bg\_atlas](bg-atlasapi/api/bg\_atlas.md)
@@ -57,10 +56,6 @@
 * [Using conda](cellfinder/using-conda.md)
 * [Image definition](cellfinder/image-orientation.md)
 * [Getting in touch](cellfinder/getting-in-touch.md)
-* [Contributing to cellfinder](cellfinder/contributing/README.md)
-  * [Setting up a development installation](cellfinder/contributing/dev-install.md)
-  * [Development conventions](cellfinder/contributing/dev-conventions.md)
-  * [Documentation](cellfinder/contributing/untitled.md)
 * [Release notes](cellfinder/release-notes.md)
 * [Citing cellfinder](cellfinder/citation.md)
 * [Misc](cellfinder/misc/README.md)
@@ -131,3 +126,4 @@
 
 * [Governance model](governance-model.md)
 * [Github repository](https://github.com/brainglobe/brainreg-napari)
+* [Contributing](https://github.com/brainglobe/.github/blob/main/CONTRIBUTING.md)

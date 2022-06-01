@@ -97,6 +97,7 @@
 * [Introduction](brainreg-napari/introduction.md)
 * [User guide](brainreg-napari/user-guide.md)
 * [Tutorial](brainreg-napari/tutorial.md)
+* [GitHub repository](https://github.com/brainglobe/brainreg-napari)
 
 ## brainreg-segment
 
@@ -112,6 +113,7 @@
 
 * [BG-Space](bg-space/bg-space.md)
 * [Usage](bg-space/usage.md)
+* [GitHub repository](https://github.com/brainglobe/bg-space)
 
 ## morphapi
 
@@ -119,10 +121,12 @@
 * [Usage](morphapi/usage/README.md)
   * [Downloading data](morphapi/usage/downloading-data.md)
   * [Rendering data](morphapi/usage/rendering-data.md)
+* [GitHub repository](https://github.com/brainglobe/morphapi)
 
 ## Brainrender
 
 * [Brainrender](brainrender/untitled.md)
+* [GitHub repository](https://github.com/brainglobe/brainrender)
 
 ***
 

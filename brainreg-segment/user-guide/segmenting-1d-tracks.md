@@ -31,7 +31,7 @@ Make sure you select the points in the order you wish them to be joined
 
 You will then see a the track fit appear in the napari window, and a `.csv` file will be saved, showing the brain region for every spline point along the track.
 
-You can also use `Save` to save your points to be reloaded at a later date, and if you loaded your data in atlas space, you can also export the track to [brainrender](https://github.com/BrancoLab/brainrender). If you're using the brainrender GUI, use the `Load cells` button to load the track. Alternatively, using the Python API, you can visualise the track as follows:\
+You can also use `Save` to save your points to be reloaded at a later date, and if you loaded your data in atlas space, you can also export the track to [brainrender](https://github.com/BrancoLab/brainrender). The file will be saved as e.g. `track_0.npy`. If you're using the brainrender GUI, use the `Load cells` button to load the track. Alternatively, using the Python API, you can visualise the track as follows:\
 
 
 ```python

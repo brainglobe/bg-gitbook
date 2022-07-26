@@ -7,7 +7,7 @@ description: How to register your data to the template
 ## Basic usage
 
 ```bash
-brainreg /path/to/raw/data /path/to/output/directory -v 5 2 2 
+brainreg /path/to/raw/data /path/to/output/directory -v 5 2 2 --orientation osl
 ```
 
 {% hint style="info" %}

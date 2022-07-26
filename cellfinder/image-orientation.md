@@ -18,6 +18,8 @@ If the origin of your data (first, top left voxel) is the most anterior, superio
 
 The order of the three initials must be the same as the axis order (sliced plane, height, width).
 
+For help with setting the orientation. The brainreg napari plugin comes with a tool to interactively check the orientation ([see documentation).](https://docs.brainglobe.info/brainreg-napari/checking-orientation)
+
 ### Voxel sizes
 
 You must also specify the size of your voxels, using the `--voxel-sizes` or `-v` flags. These voxel sizes are in microns, and come in the same order as your orientation definition.&#x20;

@@ -96,6 +96,7 @@
 
 * [Introduction](brainreg-napari/introduction.md)
 * [User guide](brainreg-napari/user-guide.md)
+* [Checking orientation](brainreg-napari/checking-orientation.md)
 * [Tutorial](brainreg-napari/tutorial.md)
 * [GitHub repository](https://github.com/brainglobe/brainreg-napari)
 

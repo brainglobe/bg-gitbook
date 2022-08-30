@@ -33,7 +33,7 @@ You must also specify the orientation and voxel size of your data, see [Image de
 
 ### Additional options
 
-* `-d` or `--downsample` Paths to N additional channels to also register to the same coordinate space.
+* `-a` or `--additional` Paths to N additional channels to also register to the same coordinate space.
 * `--sort-input-file` If set to true, the input text file will be sorted using natural sorting. This means that the file paths will be sorted as would be expected by a human and not purely alphabetically
 
 #### Misc options

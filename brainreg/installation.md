@@ -43,3 +43,7 @@ Remember to activate your conda environment before doing anything
 ```bash
 pip install brainreg
 ```
+
+{% hint style="warning" %}
+If you are using macOS then please run "`conda install -c conda-forge niftyreg"`
+{% endhint %}

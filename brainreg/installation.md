@@ -18,9 +18,9 @@ If you're not completely sure what you're doing, read on.
 
 ## Requirements
 
-The hardware requirements for brainreg depend on the atlas \(and in particular the resolution\) you want to use. Most machines \(including laptops\) will be able to use most of the atlases, but some atlases \(such as the 10um mouse atlases\) may need up to 32GB of RAM.
+The hardware requirements for brainreg depend on the atlas (and in particular the resolution) you want to use. Most machines (including laptops) will be able to use most of the atlases, but some atlases (such as the 10um mouse atlases) may need up to 32GB of RAM.
 
-Currently brainreg works on Windows and Linux. macOS support is experimental.
+Currently brainreg works on Windows and Linux.&#x20;
 
 ## Setting up your machine
 
@@ -43,4 +43,3 @@ Remember to activate your conda environment before doing anything
 ```bash
 pip install brainreg
 ```
-

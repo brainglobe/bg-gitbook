@@ -41,6 +41,12 @@ Remember to activate your conda environment before doing anything
 {% endhint %}
 
 ```bash
+pip install brainreg[napari]
+```
+
+To only install the command line tool with no GUI (e.g. to run brainreg on an HPC cluster), just run:
+
+```
 pip install brainreg
 ```
 

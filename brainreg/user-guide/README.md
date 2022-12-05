@@ -42,6 +42,7 @@ You must also specify the orientation and voxel size of your data, see [Image de
 * `--debug` Debug mode. Will increase verbosity of logging and save all intermediate files for diagnosis of software issues.
 * `--save-original-orientation` Option to save the registered atlas with the same orientation as the input data.
 * `--brain_geometry` To allow brain sub-volumes to be processed. Currently the options are `full` (default, whole brain), `hemisphere_l` (only the left hemisphere) and `hemisphere_r` (only the right hemisphere).
+* `--pre-processing` To specify the preprocessing method used before registration. Currently the only options are `default` or `skip`. Use `skip` to ensure no preprocessing is performed.
 
 ### Atlas
 

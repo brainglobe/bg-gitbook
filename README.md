@@ -1,3 +1,6 @@
+**Archived. All docs are now at https://brainglobe.info**
+
+
 ---
 description: What is BrainGlobe?
 ---
